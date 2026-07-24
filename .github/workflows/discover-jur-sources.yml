@@ -1,0 +1,36 @@
+name: Test Jobindsats connection
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/automate-jur-dashboard
+    paths:
+      - "scripts/discover_jur_sources.py"
+      - ".github/workflows/discover-jur-sources.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      JOBINDSATS_API_TOKEN: ${{ secrets.API_ADGANG }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kontroller secret
+        run: |
+          if [ -z "$JOBINDSATS_API_TOKEN" ]; then
+            echo "Secretet API_ADGANG mangler eller er tomt."
+            exit 1
+          fi
+
+      - name: Test og kortlæg Jobindsats
+        run: python scripts/discover_jur_sources.py
