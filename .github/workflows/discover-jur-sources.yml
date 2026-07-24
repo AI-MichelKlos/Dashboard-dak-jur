@@ -10,7 +10,7 @@ on:
       - ".github/workflows/discover-jur-sources.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   discover:
@@ -34,3 +34,11 @@ jobs:
 
       - name: Test og kortlæg Jobindsats
         run: python scripts/discover_jur_sources.py
+
+      - name: Gem offentlig metadata på testgrenen
+        run: |
+          git add data/jobindsats-jur-discovery.json
+          git config user.name "JUR dashboard automation"
+          git config user.email "jur-dashboard-automation@users.noreply.github.com"
+          git commit -m "Gem Jobindsats-kortlægning"
+          git push
