@@ -1,0 +1,1726 @@
+{
+  "retrieved_at": "2026-07-24T09:00:58.873880+00:00",
+  "candidate_count": 55,
+  "candidates": [
+    {
+      "table_id": "maal01",
+      "title": "Antal og andel personer med job- eller uddannelsesmål",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrp_maal01",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_maalgrp_d03",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_varig_maal01",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "ptvc02",
+      "title": "Antal aktiverede og forløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrpc02",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "ptvc03",
+      "title": "Antal påbegyndte og afsluttede aktiveringsforløb samt antal forløb primo og ultimo perioden",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrpc02",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "ptvc06",
+      "title": "Antal og varighed af afsluttede aktiveringsforløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrpc02",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01a12",
+      "title": "Antal personer med forbrug af dagpengeperioden",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_dimittend",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_forlang",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_dpforbrug",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ledkat",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01c02",
+      "title": "Antal aktiverede og forløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01c03",
+      "title": "Antal påbegyndte og afsluttede aktiveringsforløb samt antal forløb primo og ultimo perioden",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01c06",
+      "title": "Antal og varighed af afsluttede aktiveringsforløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01c07",
+      "title": "Aktiveringsgrad og andel aktiveringsberørte",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01c15",
+      "title": "Antal og andel med mentor",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_mentortype",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01dia02",
+      "title": "Antal dimittendledige personer",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_sats",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01h01",
+      "title": "Antal rådighedssanktioner",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01ud01",
+      "title": "Antal personer med opbrugt dagpengeret fordelt på efterfølgende arbejdsmarkedsstatus",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_staakut",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_staud",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y01ud01di",
+      "title": "Antal personer med opbrugt dagpengeret fordelt på dimittender og øvrige ledige",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassedp",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_dimittend",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_forlang",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y07c02",
+      "title": "Antal aktiverede og forløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_syg_vis",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y07c03",
+      "title": "Antal påbegyndte og afsluttede aktiveringsforløb samt antal forløb primo og ultimo perioden",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_syg_vis",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y07c06",
+      "title": "Antal og varighed af afsluttede aktiveringsforløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_syg_vis",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y07c07",
+      "title": "Aktiveringsgrad og andel aktiveringsberørte",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_syg_vis",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09a02",
+      "title": "Antal personer og fuldtidspersoner",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09a21",
+      "title": "Antal forløb fordelt på varighed",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09a24",
+      "title": "Antal påbegyndte og afsluttede forløb samt antal forløb primo og ultimo perioden",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09a27",
+      "title": "Antal og varighed af afsluttede forløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09b01",
+      "title": "Overlevelseskurver",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09b15",
+      "title": "Arbejdsmarkedsstatus 1, 3, 6 og 12 mdr. efter afsluttede forløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_amstatusb15",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09c01",
+      "title": "Antal aktiverede og fuldtidsaktiverede",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09c02",
+      "title": "Antal aktiverede og forløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09c03",
+      "title": "Antal påbegyndte og afsluttede aktiveringsforløb samt antal forløb primo og ultimo perioden",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09c06",
+      "title": "Antal og varighed af afsluttede aktiveringsforløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09c07",
+      "title": "Aktiveringsgrad og andel aktiveringsberørte",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09c15",
+      "title": "Antal og andel med mentor",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_mentortype",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y09g01",
+      "title": "Forsørgelsesudgifter",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y12c02",
+      "title": "Antal aktiverede og forløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y12c03",
+      "title": "Antal påbegyndte og afsluttede aktiveringsforløb samt antal forløb primo og ultimo perioden",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y12c06",
+      "title": "Antal og varighed af afsluttede aktiveringsforløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y12c07",
+      "title": "Aktiveringsgrad og andel aktiveringsberørte",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y14kval01",
+      "title": "Antal ydelsesmodtagere, som har påbegyndt et opkvalificeringsforløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrpkval01",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_alder30",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassebl",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i01",
+      "title": "Ledighed: Faktiske antal ledige og fuldtidsledige",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrpi09",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassebl",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i02",
+      "title": "Faktiske antal tilmeldte ledige og fuldtidsledige på Jobnet",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilmeldegruppe",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_hoejst_udd",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassebl",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_branche_y25i02",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i03",
+      "title": "Ledighed: Sæsonkorrigeret antal fuldtidsledige",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrpi09",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i04",
+      "title": "Ledighedsindikator: Sæsonkorrigeret antal tilmeldte fuldtidsledige på Jobnet",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilmeldegruppe",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i05",
+      "title": "Antal varslinger om afskedigelser",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_arsag",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_omfang",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_branchea",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_virkstra",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i06",
+      "title": "Antal arbejdsfordelinger",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_var13uger",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_branchea",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i06b",
+      "title": "Antal nye arbejdsfordelinger i perioden",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_var13uger",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_branchea",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i08",
+      "title": "Andel i beskæftigelse 3, 6, 9 og 12 mdr. efter nyledighed",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassebl",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_opdel_akt",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i09",
+      "title": "Antal langtidsledige personer",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrpi09",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_aldera",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassebl",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i13",
+      "title": "Arbejdskraftreserven",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrpi13",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassebl",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i13_esco",
+      "title": "Lediges jobmål (Arbejdskraftreserven ESCO-STAR)",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_ygrpi13_esco",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_akassebl",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_esco_uri",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y25i14",
+      "title": "Virksomhedernes forgæves rekrutteringer",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_escostar_rs",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y31ap01",
+      "title": "Antal og andel ydelsesmodtagere omfattet af arbejdspligt med beskæftigelsesrettet indsats",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_alder5i30",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_viskat_1int",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_omint",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y60c02",
+      "title": "Antal aktiverede og forløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_alder5i30",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_viskat_1int",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kth_sats",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y60c03",
+      "title": "Antal påbegyndte og afsluttede aktiveringsforløb samt antal forløb primo og ultimo perioden",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_alder5i30",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_viskat_1int",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kth_sats",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y60c06",
+      "title": "Antal og varighed af afsluttede aktiveringsforløb",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_alder5i30",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_viskat_1int",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_tilb_2ptv",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kth_sats",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y60c07",
+      "title": "Aktiveringsgrad og andel aktiveringsberørte",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_alder5i30",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_viskat_1int",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kth_sats",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y60c15",
+      "title": "Antal og andel med mentor",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_alder5i30",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_viskat_1int",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_mentortype",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kth_sats",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    },
+    {
+      "table_id": "y60h02",
+      "title": "Antal rådighedssanktioner",
+      "measures": [],
+      "dimensions": [
+        {
+          "id": "_omrade",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kon",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_alder5i30",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_oprinda",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_viskat_1int",
+          "name": "",
+          "relevant_values": []
+        },
+        {
+          "id": "_kth_sats",
+          "name": "",
+          "relevant_values": []
+        }
+      ],
+      "period_examples": []
+    }
+  ]
+}
