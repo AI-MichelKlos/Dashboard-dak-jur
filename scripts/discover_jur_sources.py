@@ -8,39 +8,23 @@ import os
 import re
 import urllib.error
 import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
 
 
 API_ROOT = "https://api.jobindsats.dk/v3"
+OUTPUT = Path("data/jobindsats-jur-discovery.json")
 KEYWORDS = (
-    r"ledighed",
-    r"langtidsledig",
-    r"aktivering",
-    r"vejledning",
-    r"opkvalificering",
-    r"virksomhedspraktik",
-    r"løntilskud",
-    r"varsl",
-    r"arbejdsfordeling",
-    r"rekruttering",
-    r"dimittend",
-    r"dagpengeret",
+    r"ledighed", r"langtidsledig", r"aktivering", r"vejledning",
+    r"opkvalificering", r"virksomhedspraktik", r"løntilskud", r"varsl",
+    r"arbejdsfordeling", r"rekruttering", r"dimittend", r"dagpengeret",
     r"sanktion",
 )
 RELEVANT_VALUE_WORDS = (
-    "hele landet",
-    "a-kasse",
-    "akasse",
-    "aktivering",
-    "vejledning",
-    "opkvalificering",
-    "virksomhedspraktik",
-    "løntilskud",
-    "arbejdsfordeling",
-    "dimittend",
-    "sanktion",
-    "rådighed",
-    "varsling",
-    "afskedig",
+    "hele landet", "a-kasse", "akasse", "aktivering", "vejledning",
+    "opkvalificering", "virksomhedspraktik", "løntilskud",
+    "arbejdsfordeling", "dimittend", "sanktion", "rådighed",
+    "varsling", "afskedig",
 )
 
 
@@ -112,28 +96,27 @@ def compact_values(values) -> list[dict]:
 def summarize_metadata(metadata) -> dict:
     if not isinstance(metadata, dict):
         return {"response_type": type(metadata).__name__}
-
     measures = []
     for item in walk(metadata.get("mgroups", [])):
         if not isinstance(item, dict):
             continue
         identifier = first_text(item, ("id", "mgroup_id", "code"))
         name = first_text(item, ("name", "text", "title", "label"))
-        if identifier and name and {"id": identifier, "name": name} not in measures:
-            measures.append({"id": identifier, "name": name})
-
+        row = {"id": identifier, "name": name}
+        if identifier and name and row not in measures:
+            measures.append(row)
     dimensions = []
     for item in metadata.get("dimensions", []):
         if not isinstance(item, dict):
             continue
         identifier = first_text(item, ("id", "dimension_id", "code"))
         name = first_text(item, ("name", "text", "title", "label"))
-        values = compact_values(item)
         if identifier or name:
-            dimensions.append(
-                {"id": identifier, "name": name, "relevant_values": values}
-            )
-
+            dimensions.append({
+                "id": identifier,
+                "name": name,
+                "relevant_values": compact_values(item),
+            })
     periods = []
     for item in walk(metadata.get("periods", [])):
         if not isinstance(item, dict):
@@ -142,7 +125,6 @@ def summarize_metadata(metadata) -> dict:
         name = first_text(item, ("name", "text", "title", "label"))
         if identifier and name:
             periods.append({"id": identifier, "name": name})
-
     return {
         "measures": measures[:30],
         "dimensions": dimensions[:30],
@@ -162,12 +144,24 @@ def main():
         if any(re.search(pattern, haystack, re.IGNORECASE) for pattern in KEYWORDS):
             candidates[identifier] = title
 
+    results = []
     print(f"API-forbindelsen virker. Fandt {len(candidates)} kandidattabeller.")
     for identifier in sorted(candidates):
         print()
         print(f"TABLE {identifier}: {candidates[identifier]}")
-        metadata = api_get(f"table/{identifier}?format=json")
-        print(json.dumps(summarize_metadata(metadata), ensure_ascii=False))
+        summary = summarize_metadata(api_get(f"table/{identifier}?format=json"))
+        results.append({"table_id": identifier, "title": candidates[identifier], **summary})
+        print(json.dumps(summary, ensure_ascii=False))
+
+    payload = {
+        "retrieved_at": datetime.now(timezone.utc).isoformat(),
+        "candidate_count": len(results),
+        "candidates": results,
+    }
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
 
 
 if __name__ == "__main__":
