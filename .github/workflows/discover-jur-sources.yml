@@ -7,6 +7,7 @@ on:
       - agent/automate-jur-dashboard
     paths:
       - "scripts/discover_jur_sources.py"
+      - "scripts/probe_jur_data.py"
       - ".github/workflows/discover-jur-sources.yml"
 
 permissions:
@@ -33,11 +34,13 @@ jobs:
           fi
 
       - name: Test og kortlæg Jobindsats
-        run: python scripts/discover_jur_sources.py
+        run: |
+          python scripts/discover_jur_sources.py
+          python scripts/probe_jur_data.py
 
       - name: Gem offentlig metadata på testgrenen
         run: |
-          git add data/jobindsats-jur-discovery.json
+          git add data/jobindsats-jur-discovery.json data/jur-api-probe.json
           git config user.name "JUR dashboard automation"
           git config user.email "jur-dashboard-automation@users.noreply.github.com"
           git commit -m "Gem Jobindsats-kortlægning"
