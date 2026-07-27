@@ -1,0 +1,50 @@
+name: Update JUR dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 9 * * 1-5"
+      timezone: "Europe/Copenhagen"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-jur-dashboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      JOBINDSATS_API_TOKEN: ${{ secrets.API_ADGANG }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kontroller Jobindsats-secret
+        run: |
+          if [ -z "$JOBINDSATS_API_TOKEN" ]; then
+            echo "Secretet API_ADGANG mangler eller er tomt."
+            exit 1
+          fi
+      - name: Hent officielle tal og byg dashboard
+        run: python scripts/update_jur_dashboard.py
+      - name: Kontroller dashboardfilen
+        run: |
+          test -s index.html
+          grep -q "Nøgletal for a-kasserne" index.html
+          grep -q "const DATA=" index.html
+      - name: Gem ændringer
+        run: |
+          git add index.html data/dashboard-data.json
+          if git diff --cached --quiet; then
+            echo "Ingen nye tal at gemme."
+            exit 0
+          fi
+          git config user.name "JUR dashboard automation"
+          git config user.email "jur-dashboard-automation@users.noreply.github.com"
+          git commit -m "Opdater JUR-dashboard"
+          git push
