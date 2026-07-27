@@ -1262,9 +1262,9 @@
         "Område",
         "A-kasse",
         "Tilbud",
-        "Antal aktiveringsforløb",
         "Antal aktiverede",
-        "Gnsn. antal aktiveringsforløb pr. aktiveret"
+        "Antal fuldtidsaktiverede",
+        "Fuldtidsaktiverede i pct. af arbejdsstyrken"
       ],
       "rows": [
         [
@@ -1272,3456 +1272,3456 @@
           "Hele landet",
           "A-kasse i alt",
           "Tilbud i alt",
-          27387,
           22681,
-          1.2
+          8295,
+          0.3
         ],
         [
           "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Vejledning og opkvalificering i alt",
-          18635,
           16612,
-          1.1
+          4174,
+          0.1
         ],
         [
           "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Ordinær uddannelse i alt",
-          4901,
           4606,
-          1.1
+          2080,
+          0.1
         ],
         [
           "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Almen voksenuddannelse (AVU)",
-          401,
           389,
-          1.0
+          97,
+          0.0
         ],
         [
           "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Arbejdsmarkedsuddannelse (AMU)",
-          2074,
           1904,
-          1.1
+          716,
+          0.0
         ],
         [
           "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Erhversuddannelse (EUD) m.v.",
-          670,
           658,
-          1.0
+          601,
+          0.0
         ],
         [
           "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Social- og sundhedsuddannelser (SOSU)",
-          47,
           45,
-          1.0
+          40,
+          0.0
         ],
         [
           "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Udd. på videregående niveau (KVU, MVU, LVU)",
-          602,
           594,
-          1.0
+          291,
+          0.0
         ],
         [
           "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Læse-, skrive-, regne- og ordblindekurser",
-          98,
           92,
-          1.1
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Danskuddannelse",
-          1009,
-          981,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          13734,
-          12505,
-          1.1
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          13734,
-          12505,
-          1.1
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud i alt",
-          1257,
-          1250,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          915,
-          910,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          915,
-          910,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig ansættelse med løntilskud i alt",
-          342,
-          341,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, stat",
-          46,
-          46,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, region",
-          29,
-          29,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, kommune",
-          267,
-          266,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik i alt",
-          7429,
-          7212,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          5566,
-          5421,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          5566,
-          5421,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig virksomhedspraktik i alt",
-          1863,
-          1818,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, stat",
-          234,
-          223,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, region",
-          117,
-          115,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, kommune",
-          1512,
-          1483,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          66,
-          66,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          66,
-          66,
-          1.0
-        ],
-        [
-          "2025M05",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, kommune",
-          66,
-          66,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Tilbud i alt",
-          26143,
-          21768,
-          1.2
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Vejledning og opkvalificering i alt",
-          17297,
-          15478,
-          1.1
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ordinær uddannelse i alt",
-          4501,
-          4276,
-          1.1
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Almen voksenuddannelse (AVU)",
-          381,
-          373,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Arbejdsmarkedsuddannelse (AMU)",
-          1962,
-          1823,
-          1.1
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Erhversuddannelse (EUD) m.v.",
-          605,
-          591,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Social- og sundhedsuddannelser (SOSU)",
-          44,
-          43,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Udd. på videregående niveau (KVU, MVU, LVU)",
-          452,
-          446,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Læse-, skrive-, regne- og ordblindekurser",
-          74,
-          73,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Danskuddannelse",
-          983,
-          958,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          12796,
-          11666,
-          1.1
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          12796,
-          11666,
-          1.1
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud i alt",
-          1256,
-          1251,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          924,
-          922,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          924,
-          922,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig ansættelse med løntilskud i alt",
-          332,
-          330,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, stat",
-          34,
-          34,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, region",
-          35,
-          34,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, kommune",
-          263,
-          262,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik i alt",
-          7530,
-          7314,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          5764,
-          5611,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          5764,
-          5611,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig virksomhedspraktik i alt",
-          1766,
-          1725,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, stat",
-          178,
-          176,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, region",
-          98,
-          97,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, kommune",
-          1490,
-          1453,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          60,
-          58,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          60,
-          58,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, stat",
-          null,
-          null,
-          1.0
-        ],
-        [
-          "2025M06",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, kommune",
-          59,
-          57,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Tilbud i alt",
-          17593,
-          15247,
-          1.2
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Vejledning og opkvalificering i alt",
-          11603,
-          10650,
-          1.1
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ordinær uddannelse i alt",
-          2285,
-          2218,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Almen voksenuddannelse (AVU)",
-          96,
-          95,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Arbejdsmarkedsuddannelse (AMU)",
-          742,
-          709,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Erhversuddannelse (EUD) m.v.",
-          390,
-          383,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Social- og sundhedsuddannelser (SOSU)",
-          24,
-          24,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Udd. på videregående niveau (KVU, MVU, LVU)",
-          196,
-          194,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Læse-, skrive-, regne- og ordblindekurser",
-          21,
-          21,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Danskuddannelse",
-          816,
-          798,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          9318,
-          8636,
-          1.1
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          9318,
-          8636,
-          1.1
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud i alt",
-          1072,
-          1065,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          811,
-          807,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          811,
-          807,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig ansættelse med løntilskud i alt",
-          261,
-          259,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, stat",
-          29,
-          29,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, region",
-          29,
-          28,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, kommune",
-          203,
-          202,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik i alt",
-          4864,
-          4779,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          3900,
-          3845,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          3900,
-          3845,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig virksomhedspraktik i alt",
-          964,
-          948,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, stat",
-          80,
-          79,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, region",
-          54,
-          53,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, kommune",
-          830,
-          816,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          54,
-          53,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          54,
-          53,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, stat",
-          null,
-          null,
-          1.0
-        ],
-        [
-          "2025M07",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, kommune",
-          53,
-          52,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Tilbud i alt",
-          19883,
-          17198,
-          1.2
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Vejledning og opkvalificering i alt",
-          13929,
-          12634,
-          1.1
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ordinær uddannelse i alt",
-          3561,
-          3402,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Almen voksenuddannelse (AVU)",
-          246,
-          239,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Arbejdsmarkedsuddannelse (AMU)",
-          1340,
-          1262,
-          1.1
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Erhversuddannelse (EUD) m.v.",
-          689,
-          677,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Social- og sundhedsuddannelser (SOSU)",
-          46,
-          46,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Udd. på videregående niveau (KVU, MVU, LVU)",
-          287,
-          285,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Læse-, skrive-, regne- og ordblindekurser",
-          68,
-          66,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Danskuddannelse",
-          885,
-          858,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          10368,
-          9548,
-          1.1
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          10368,
-          9548,
-          1.1
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud i alt",
-          1031,
-          1022,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          793,
-          787,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          793,
-          787,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig ansættelse med løntilskud i alt",
-          238,
-          237,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, stat",
-          32,
-          32,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, region",
-          21,
-          20,
-          1.1
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, kommune",
-          185,
-          185,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik i alt",
-          4874,
-          4797,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          3745,
-          3696,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          3745,
-          3696,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig virksomhedspraktik i alt",
-          1129,
-          1116,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, stat",
-          103,
-          102,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, region",
-          59,
-          58,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, kommune",
-          967,
-          957,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          49,
-          49,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          49,
-          49,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, stat",
-          null,
-          null,
-          1.0
-        ],
-        [
-          "2025M08",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, kommune",
-          48,
-          48,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Tilbud i alt",
-          24203,
-          20321,
-          1.2
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Vejledning og opkvalificering i alt",
-          17020,
-          15155,
-          1.1
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ordinær uddannelse i alt",
-          4367,
-          4131,
-          1.1
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Almen voksenuddannelse (AVU)",
-          365,
-          349,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Arbejdsmarkedsuddannelse (AMU)",
-          1767,
-          1627,
-          1.1
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Erhversuddannelse (EUD) m.v.",
-          685,
-          674,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Social- og sundhedsuddannelser (SOSU)",
-          46,
-          46,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Udd. på videregående niveau (KVU, MVU, LVU)",
-          475,
-          469,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Læse-, skrive-, regne- og ordblindekurser",
-          78,
-          72,
-          1.1
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Danskuddannelse",
-          951,
-          933,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          12653,
-          11445,
-          1.1
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          12653,
-          11445,
-          1.1
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud i alt",
-          1023,
-          1015,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          770,
-          767,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          770,
-          767,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig ansættelse med løntilskud i alt",
-          253,
-          248,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, stat",
-          33,
-          31,
-          1.1
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, region",
-          23,
-          22,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, kommune",
-          197,
-          195,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik i alt",
-          6106,
-          5914,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          4588,
-          4462,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          4588,
-          4462,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig virksomhedspraktik i alt",
-          1518,
-          1476,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, stat",
-          187,
-          182,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, region",
-          101,
-          97,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, kommune",
-          1230,
-          1198,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          54,
-          54,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          54,
-          54,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, stat",
-          null,
-          null,
-          1.0
-        ],
-        [
-          "2025M09",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, kommune",
-          53,
-          53,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Tilbud i alt",
-          24726,
-          20746,
-          1.2
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Vejledning og opkvalificering i alt",
-          17393,
-          15589,
-          1.1
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ordinær uddannelse i alt",
-          4379,
-          4136,
-          1.1
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Almen voksenuddannelse (AVU)",
-          306,
-          296,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Arbejdsmarkedsuddannelse (AMU)",
-          1733,
-          1610,
-          1.1
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Erhversuddannelse (EUD) m.v.",
-          674,
-          666,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Social- og sundhedsuddannelser (SOSU)",
-          58,
-          58,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Udd. på videregående niveau (KVU, MVU, LVU)",
-          503,
-          495,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Læse-, skrive-, regne- og ordblindekurser",
-          95,
-          87,
-          1.1
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Danskuddannelse",
-          1010,
-          980,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          13014,
-          11903,
-          1.1
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          13014,
-          11903,
-          1.1
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud i alt",
-          1024,
-          1019,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          766,
-          765,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          766,
-          765,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig ansættelse med løntilskud i alt",
-          258,
-          255,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, stat",
-          39,
-          37,
-          1.1
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, region",
-          22,
-          21,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, kommune",
-          197,
-          197,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik i alt",
-          6273,
-          6055,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          4733,
-          4587,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          4733,
-          4587,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig virksomhedspraktik i alt",
-          1540,
-          1492,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, stat",
-          210,
-          200,
-          1.1
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, region",
-          109,
-          102,
-          1.1
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, kommune",
-          1221,
-          1193,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          36,
-          36,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          36,
-          36,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, stat",
-          null,
-          null,
-          1.0
-        ],
-        [
-          "2025M10",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, kommune",
-          35,
-          35,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Tilbud i alt",
-          25516,
-          21362,
-          1.2
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Vejledning og opkvalificering i alt",
-          17553,
-          15710,
-          1.1
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ordinær uddannelse i alt",
-          4500,
-          4281,
-          1.1
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Almen voksenuddannelse (AVU)",
-          345,
-          343,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Arbejdsmarkedsuddannelse (AMU)",
-          1844,
-          1709,
-          1.1
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Erhversuddannelse (EUD) m.v.",
-          656,
-          643,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Social- og sundhedsuddannelser (SOSU)",
-          43,
-          43,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Udd. på videregående niveau (KVU, MVU, LVU)",
-          530,
-          524,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Læse-, skrive-, regne- og ordblindekurser",
-          76,
-          70,
-          1.1
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Danskuddannelse",
-          1006,
-          988,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          13053,
-          11945,
-          1.1
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          13053,
-          11945,
-          1.1
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud i alt",
-          1045,
-          1037,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          791,
-          790,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          791,
-          790,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig ansættelse med løntilskud i alt",
-          254,
-          248,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, stat",
-          37,
-          35,
-          1.1
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, region",
-          25,
-          23,
-          1.1
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, kommune",
-          192,
-          190,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik i alt",
-          6873,
-          6695,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          5221,
-          5100,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          5221,
-          5100,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig virksomhedspraktik i alt",
-          1652,
-          1618,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, stat",
-          206,
-          199,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, region",
-          125,
-          119,
-          1.1
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, kommune",
-          1321,
-          1300,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          45,
-          44,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          45,
-          44,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, stat",
-          null,
-          null,
-          1.0
-        ],
-        [
-          "2025M11",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, kommune",
-          44,
-          43,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Tilbud i alt",
-          20359,
-          17732,
-          1.1
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Vejledning og opkvalificering i alt",
-          14221,
-          13035,
-          1.1
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ordinær uddannelse i alt",
-          3709,
-          3586,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Almen voksenuddannelse (AVU)",
-          262,
-          259,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Arbejdsmarkedsuddannelse (AMU)",
-          1388,
-          1337,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Erhversuddannelse (EUD) m.v.",
-          617,
-          608,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Social- og sundhedsuddannelser (SOSU)",
-          41,
-          41,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Udd. på videregående niveau (KVU, MVU, LVU)",
-          352,
-          348,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Læse-, skrive-, regne- og ordblindekurser",
-          62,
-          60,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Danskuddannelse",
-          987,
-          958,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          10512,
-          9780,
-          1.1
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          10512,
-          9780,
-          1.1
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud i alt",
-          960,
-          953,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          715,
-          714,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          715,
-          714,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig ansættelse med løntilskud i alt",
-          245,
-          240,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, stat",
-          31,
-          30,
-          1.0
-        ],
-        [
-          "2025M12",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, region",
           27,
-          25,
-          1.1
+          0.0
         ],
         [
-          "2025M12",
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Danskuddannelse",
+          981,
+          310,
+          0.0
+        ],
+        [
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          12505,
+          2095,
+          0.1
+        ],
+        [
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          12505,
+          2095,
+          0.1
+        ],
+        [
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud i alt",
+          1250,
+          1045,
+          0.0
+        ],
+        [
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          910,
+          759,
+          0.0
+        ],
+        [
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          910,
+          759,
+          0.0
+        ],
+        [
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig ansættelse med løntilskud i alt",
+          341,
+          285,
+          0.0
+        ],
+        [
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, stat",
+          46,
+          34,
+          0.0
+        ],
+        [
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, region",
+          29,
+          25,
+          0.0
+        ],
+        [
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, kommune",
-          187,
-          185,
-          1.0
+          266,
+          227,
+          0.0
         ],
         [
-          "2025M12",
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik i alt",
-          5147,
-          5066,
-          1.0
+          7212,
+          3046,
+          0.1
         ],
         [
-          "2025M12",
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          3976,
-          3922,
-          1.0
+          5421,
+          2340,
+          0.1
         ],
         [
-          "2025M12",
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          3976,
-          3922,
-          1.0
+          5421,
+          2340,
+          0.1
         ],
         [
-          "2025M12",
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig virksomhedspraktik i alt",
-          1171,
-          1156,
-          1.0
+          1818,
+          706,
+          0.0
         ],
         [
-          "2025M12",
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, stat",
-          154,
-          153,
-          1.0
+          223,
+          102,
+          0.0
         ],
         [
-          "2025M12",
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, region",
-          92,
-          87,
-          1.1
+          115,
+          54,
+          0.0
         ],
         [
-          "2025M12",
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, kommune",
-          925,
-          916,
-          1.0
+          1483,
+          550,
+          0.0
         ],
         [
-          "2025M12",
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          31,
-          31,
-          1.0
+          66,
+          29,
+          0.0
         ],
         [
-          "2025M12",
+          "2025M05",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          31,
-          31,
-          1.0
+          66,
+          29,
+          0.0
         ],
         [
-          "2025M12",
+          "2025M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, kommune",
+          66,
+          29,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Tilbud i alt",
+          21768,
+          7694,
+          0.3
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Vejledning og opkvalificering i alt",
+          15478,
+          3663,
+          0.1
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ordinær uddannelse i alt",
+          4276,
+          1826,
+          0.1
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Almen voksenuddannelse (AVU)",
+          373,
+          86,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Arbejdsmarkedsuddannelse (AMU)",
+          1823,
+          620,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Erhversuddannelse (EUD) m.v.",
+          591,
+          522,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Social- og sundhedsuddannelser (SOSU)",
+          43,
+          35,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Udd. på videregående niveau (KVU, MVU, LVU)",
+          446,
+          253,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Læse-, skrive-, regne- og ordblindekurser",
+          73,
+          18,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Danskuddannelse",
+          958,
+          292,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11666,
+          1837,
+          0.1
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11666,
+          1837,
+          0.1
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud i alt",
+          1251,
+          1057,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          922,
+          782,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          922,
+          782,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig ansættelse med løntilskud i alt",
+          330,
+          275,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, stat",
+          34,
+          32,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, region",
+          34,
+          28,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, kommune",
+          262,
+          216,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik i alt",
+          7314,
+          2947,
+          0.1
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          5611,
+          2310,
+          0.1
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          5611,
+          2310,
+          0.1
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig virksomhedspraktik i alt",
+          1725,
+          637,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, stat",
+          176,
+          80,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, region",
+          97,
+          42,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, kommune",
+          1453,
+          515,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          58,
+          26,
+          0.0
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          58,
+          26,
+          0.0
+        ],
+        [
+          "2025M06",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats, stat",
           null,
           null,
-          1.0
+          0.0
         ],
         [
-          "2025M12",
+          "2025M06",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats, kommune",
-          30,
-          30,
-          1.0
+          57,
+          26,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Tilbud i alt",
-          20517,
-          17865,
-          1.1
+          15247,
+          4830,
+          0.2
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Vejledning og opkvalificering i alt",
-          14238,
-          12902,
-          1.1
+          10650,
+          2128,
+          0.1
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Ordinær uddannelse i alt",
-          4078,
-          3873,
-          1.1
+          2218,
+          893,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Almen voksenuddannelse (AVU)",
-          287,
-          283,
-          1.0
+          95,
+          21,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Arbejdsmarkedsuddannelse (AMU)",
-          1551,
-          1452,
-          1.1
+          709,
+          221,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Erhversuddannelse (EUD) m.v.",
-          846,
-          818,
-          1.0
+          383,
+          339,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Social- og sundhedsuddannelser (SOSU)",
-          42,
-          42,
-          1.0
+          24,
+          22,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Udd. på videregående niveau (KVU, MVU, LVU)",
-          361,
-          352,
-          1.0
+          194,
+          54,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Læse-, skrive-, regne- og ordblindekurser",
-          63,
-          60,
-          1.1
+          21,
+          null,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Danskuddannelse",
-          928,
-          906,
-          1.0
+          798,
+          234,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          10160,
-          9375,
-          1.1
+          8636,
+          1234,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          10160,
-          9375,
-          1.1
+          8636,
+          1234,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud i alt",
-          952,
-          946,
-          1.0
+          1065,
+          905,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          724,
-          723,
-          1.0
+          807,
+          688,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          724,
-          723,
-          1.0
+          807,
+          688,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig ansættelse med løntilskud i alt",
-          228,
-          224,
-          1.0
+          259,
+          216,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, stat",
-          23,
-          23,
-          1.0
+          29,
+          26,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, region",
           28,
           26,
-          1.1
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, kommune",
-          177,
-          175,
-          1.0
+          202,
+          165,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik i alt",
-          5290,
-          5202,
-          1.0
+          4779,
+          1776,
+          0.1
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          3993,
-          3935,
-          1.0
+          3845,
+          1467,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          3993,
-          3935,
-          1.0
+          3845,
+          1467,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig virksomhedspraktik i alt",
-          1297,
-          1280,
-          1.0
+          948,
+          309,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, stat",
-          175,
-          171,
-          1.0
+          79,
+          30,
+          0.0
         ],
         [
-          "2026M01",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, region",
-          90,
-          88,
-          1.0
-        ],
-        [
-          "2026M01",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, kommune",
-          1032,
-          1022,
-          1.0
-        ],
-        [
-          "2026M01",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          37,
-          37,
-          1.0
-        ],
-        [
-          "2026M01",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats i alt",
-          37,
-          37,
-          1.0
-        ],
-        [
-          "2026M01",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, stat",
-          null,
-          null,
-          1.0
-        ],
-        [
-          "2026M01",
-          "Hele landet",
-          "A-kasse i alt",
-          "Nytteindsats, kommune",
-          36,
-          36,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Tilbud i alt",
-          23388,
-          19941,
-          1.2
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Vejledning og opkvalificering i alt",
-          16054,
-          14421,
-          1.1
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ordinær uddannelse i alt",
-          4293,
-          4093,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Almen voksenuddannelse (AVU)",
-          315,
-          311,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Arbejdsmarkedsuddannelse (AMU)",
-          1704,
-          1589,
-          1.1
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Erhversuddannelse (EUD) m.v.",
-          730,
-          715,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Social- og sundhedsuddannelser (SOSU)",
-          30,
-          30,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Udd. på videregående niveau (KVU, MVU, LVU)",
-          491,
-          482,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Læse-, skrive-, regne- og ordblindekurser",
-          60,
-          58,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Danskuddannelse",
-          963,
-          938,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          11761,
-          10839,
-          1.1
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Øvrige vejlednings- og opkvalificeringsforløb",
-          11761,
-          10839,
-          1.1
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud i alt",
-          941,
-          936,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          697,
-          695,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat ansættelse med løntilskud",
-          697,
-          695,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig ansættelse med løntilskud i alt",
-          244,
-          241,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, stat",
-          33,
-          33,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, region",
+          53,
           28,
-          27,
-          1.0
+          0.0
         ],
         [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Ansættelse med løntilskud, kommune",
-          183,
-          181,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik i alt",
-          6347,
-          6142,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          4792,
-          4649,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Privat virksomhedspraktik",
-          4792,
-          4649,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Offentlig virksomhedspraktik i alt",
-          1555,
-          1513,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, stat",
-          211,
-          203,
-          1.0
-        ],
-        [
-          "2026M02",
-          "Hele landet",
-          "A-kasse i alt",
-          "Virksomhedspraktik, region",
-          107,
-          103,
-          1.0
-        ],
-        [
-          "2026M02",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, kommune",
-          1237,
-          1212,
-          1.0
+          816,
+          251,
+          0.0
         ],
         [
-          "2026M02",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          46,
-          45,
-          1.0
+          53,
+          22,
+          0.0
         ],
         [
-          "2026M02",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          46,
-          45,
-          1.0
+          53,
+          22,
+          0.0
         ],
         [
-          "2026M02",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats, stat",
           null,
           null,
-          1.0
+          0.0
         ],
         [
-          "2026M02",
+          "2025M07",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats, kommune",
-          45,
-          44,
-          1.0
+          52,
+          21,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Tilbud i alt",
-          24409,
-          20556,
-          1.2
+          17198,
+          5718,
+          0.2
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Vejledning og opkvalificering i alt",
-          16531,
-          14709,
-          1.1
+          12634,
+          2834,
+          0.1
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Ordinær uddannelse i alt",
-          4407,
-          4150,
-          1.1
+          3402,
+          1493,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Almen voksenuddannelse (AVU)",
-          316,
-          310,
-          1.0
+          239,
+          52,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Arbejdsmarkedsuddannelse (AMU)",
-          1835,
-          1683,
-          1.1
+          1262,
+          414,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Erhversuddannelse (EUD) m.v.",
-          663,
-          650,
-          1.0
+          677,
+          575,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Social- og sundhedsuddannelser (SOSU)",
-          45,
-          45,
-          1.0
+          46,
+          28,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Udd. på videregående niveau (KVU, MVU, LVU)",
-          480,
-          471,
-          1.0
+          285,
+          160,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Læse-, skrive-, regne- og ordblindekurser",
-          82,
-          74,
-          1.1
+          66,
+          12,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Danskuddannelse",
-          986,
-          962,
-          1.0
+          858,
+          251,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          12124,
-          11020,
-          1.1
+          9548,
+          1341,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          12124,
-          11020,
-          1.1
+          9548,
+          1341,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud i alt",
-          997,
-          994,
-          1.0
+          1022,
+          887,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          741,
-          740,
-          1.0
+          787,
+          682,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          741,
-          740,
-          1.0
+          787,
+          682,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig ansættelse med løntilskud i alt",
-          256,
-          254,
-          1.0
+          237,
+          205,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, stat",
-          40,
-          40,
-          1.0
+          32,
+          31,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, region",
-          25,
-          24,
-          1.0
+          20,
+          19,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, kommune",
-          191,
-          190,
-          1.0
+          185,
+          155,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik i alt",
-          6839,
-          6633,
-          1.0
+          4797,
+          1973,
+          0.1
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          5249,
-          5107,
-          1.0
+          3696,
+          1575,
+          0.1
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          5249,
-          5107,
-          1.0
+          3696,
+          1575,
+          0.1
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig virksomhedspraktik i alt",
-          1590,
-          1552,
-          1.0
+          1116,
+          398,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, stat",
-          231,
-          217,
-          1.1
+          102,
+          46,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, region",
-          96,
-          93,
-          1.0
+          58,
+          23,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, kommune",
-          1263,
-          1243,
-          1.0
+          957,
+          329,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          42,
-          41,
-          1.0
+          49,
+          24,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          42,
-          41,
-          1.0
+          49,
+          24,
+          0.0
         ],
         [
-          "2026M03",
+          "2025M08",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, stat",
+          null,
+          null,
+          0.0
+        ],
+        [
+          "2025M08",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats, kommune",
-          42,
-          41,
-          1.0
+          48,
+          23,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Tilbud i alt",
-          23446,
-          19959,
-          1.2
+          20321,
+          6877,
+          0.2
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Vejledning og opkvalificering i alt",
-          16272,
-          14683,
-          1.1
+          15155,
+          3566,
+          0.1
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Ordinær uddannelse i alt",
-          4167,
-          3954,
-          1.1
+          4131,
+          1803,
+          0.1
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Almen voksenuddannelse (AVU)",
-          292,
-          287,
-          1.0
+          349,
+          72,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Arbejdsmarkedsuddannelse (AMU)",
-          1675,
-          1547,
-          1.1
+          1627,
+          555,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Erhversuddannelse (EUD) m.v.",
-          661,
-          653,
-          1.0
+          674,
+          612,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Social- og sundhedsuddannelser (SOSU)",
-          31,
-          30,
-          1.0
+          46,
+          43,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Udd. på videregående niveau (KVU, MVU, LVU)",
-          453,
-          448,
-          1.0
+          469,
+          226,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Læse-, skrive-, regne- og ordblindekurser",
-          57,
-          55,
-          1.0
+          72,
+          17,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Danskuddannelse",
-          998,
-          970,
-          1.0
+          933,
+          279,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          12105,
-          11152,
-          1.1
+          11445,
+          1763,
+          0.1
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          12105,
-          11152,
-          1.1
+          11445,
+          1763,
+          0.1
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud i alt",
-          1017,
-          1011,
-          1.0
+          1015,
+          846,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          761,
-          758,
-          1.0
+          767,
+          653,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          761,
-          758,
-          1.0
+          767,
+          653,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig ansættelse med løntilskud i alt",
-          256,
-          253,
-          1.0
+          248,
+          194,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, stat",
-          42,
-          42,
-          1.0
+          31,
+          29,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, region",
-          25,
-          24,
-          1.0
+          22,
+          16,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, kommune",
-          189,
-          187,
-          1.0
+          195,
+          150,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik i alt",
-          6117,
-          5916,
-          1.0
+          5914,
+          2442,
+          0.1
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          4701,
-          4554,
-          1.0
+          4462,
+          1881,
+          0.1
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          4701,
-          4554,
-          1.0
+          4462,
+          1881,
+          0.1
         ],
         [
-          "2026M04",
+          "2025M09",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig virksomhedspraktik i alt",
-          1416,
-          1383,
-          1.0
+          1476,
+          560,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M09",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, stat",
+          182,
+          81,
+          0.0
+        ],
+        [
+          "2025M09",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, region",
+          97,
+          53,
+          0.0
+        ],
+        [
+          "2025M09",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, kommune",
+          1198,
+          427,
+          0.0
+        ],
+        [
+          "2025M09",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          54,
+          23,
+          0.0
+        ],
+        [
+          "2025M09",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          54,
+          23,
+          0.0
+        ],
+        [
+          "2025M09",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, stat",
+          null,
+          null,
+          0.0
+        ],
+        [
+          "2025M09",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, kommune",
+          53,
+          23,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Tilbud i alt",
+          20746,
+          7100,
+          0.2
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Vejledning og opkvalificering i alt",
+          15589,
+          3744,
+          0.1
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ordinær uddannelse i alt",
+          4136,
+          1856,
+          0.1
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Almen voksenuddannelse (AVU)",
+          296,
+          68,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Arbejdsmarkedsuddannelse (AMU)",
+          1610,
+          546,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Erhversuddannelse (EUD) m.v.",
+          666,
+          579,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Social- og sundhedsuddannelser (SOSU)",
+          58,
+          37,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Udd. på videregående niveau (KVU, MVU, LVU)",
+          495,
+          314,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Læse-, skrive-, regne- og ordblindekurser",
+          87,
+          18,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Danskuddannelse",
+          980,
+          295,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11903,
+          1888,
+          0.1
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11903,
+          1888,
+          0.1
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud i alt",
+          1019,
+          868,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          765,
+          654,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          765,
+          654,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig ansættelse med løntilskud i alt",
+          255,
+          214,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, stat",
+          37,
+          32,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, region",
+          21,
+          18,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, kommune",
+          197,
+          165,
+          0.0
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik i alt",
+          6055,
+          2470,
+          0.1
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          4587,
+          1900,
+          0.1
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          4587,
+          1900,
+          0.1
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig virksomhedspraktik i alt",
+          1492,
+          571,
+          0.0
+        ],
+        [
+          "2025M10",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, stat",
           200,
-          195,
-          1.0
+          88,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M10",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, region",
-          79,
-          79,
-          1.0
+          102,
+          45,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M10",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, kommune",
-          1137,
-          1110,
-          1.0
+          1193,
+          438,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M10",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          40,
-          39,
-          1.0
+          36,
+          17,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M10",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          40,
-          39,
-          1.0
+          36,
+          17,
+          0.0
         ],
         [
-          "2026M04",
+          "2025M10",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats, stat",
           null,
           null,
-          1.0
+          0.0
         ],
         [
-          "2026M04",
+          "2025M10",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats, kommune",
-          39,
-          38,
-          1.0
+          35,
+          17,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Tilbud i alt",
-          24500,
-          20791,
-          1.2
+          21362,
+          7945,
+          0.3
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Vejledning og opkvalificering i alt",
-          16909,
-          15372,
-          1.1
+          15710,
+          4019,
+          0.1
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Ordinær uddannelse i alt",
-          4206,
-          4010,
-          1.0
+          4281,
+          1989,
+          0.1
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Almen voksenuddannelse (AVU)",
-          327,
-          319,
-          1.0
+          343,
+          81,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Arbejdsmarkedsuddannelse (AMU)",
-          1676,
-          1552,
-          1.1
+          1709,
+          613,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Erhversuddannelse (EUD) m.v.",
-          646,
-          639,
-          1.0
+          643,
+          606,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Social- og sundhedsuddannelser (SOSU)",
-          41,
-          40,
-          1.0
+          43,
+          39,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Udd. på videregående niveau (KVU, MVU, LVU)",
-          482,
-          473,
-          1.0
+          524,
+          323,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Læse-, skrive-, regne- og ordblindekurser",
-          56,
-          54,
-          1.0
+          70,
+          20,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Danskuddannelse",
-          978,
-          965,
-          1.0
+          988,
+          308,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          12703,
-          11763,
-          1.1
+          11945,
+          2030,
+          0.1
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          12703,
-          11763,
-          1.1
+          11945,
+          2030,
+          0.1
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud i alt",
-          1013,
-          1003,
-          1.0
+          1037,
+          902,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          755,
-          751,
-          1.0
+          790,
+          682,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          755,
-          751,
-          1.0
+          790,
+          682,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig ansættelse med løntilskud i alt",
-          258,
-          253,
-          1.0
+          248,
+          220,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, stat",
-          47,
-          46,
-          1.0
+          35,
+          34,
+          0.0
         ],
         [
-          "2026M05",
+          "2025M11",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, region",
           23,
           22,
-          1.0
+          0.0
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, kommune",
+          190,
+          164,
+          0.0
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik i alt",
+          6695,
+          3005,
+          0.1
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          5100,
+          2326,
+          0.1
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          5100,
+          2326,
+          0.1
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig virksomhedspraktik i alt",
+          1618,
+          679,
+          0.0
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, stat",
+          199,
+          99,
+          0.0
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, region",
+          119,
+          62,
+          0.0
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, kommune",
+          1300,
+          518,
+          0.0
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          44,
+          18,
+          0.0
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          44,
+          18,
+          0.0
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, stat",
+          null,
+          null,
+          0.0
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, kommune",
+          43,
+          18,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Tilbud i alt",
+          17732,
+          6118,
+          0.2
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Vejledning og opkvalificering i alt",
+          13035,
+          3092,
+          0.1
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ordinær uddannelse i alt",
+          3586,
+          1562,
+          0.1
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Almen voksenuddannelse (AVU)",
+          259,
+          57,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Arbejdsmarkedsuddannelse (AMU)",
+          1337,
+          409,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Erhversuddannelse (EUD) m.v.",
+          608,
+          569,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Social- og sundhedsuddannelser (SOSU)",
+          41,
+          36,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Udd. på videregående niveau (KVU, MVU, LVU)",
+          348,
+          183,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Læse-, skrive-, regne- og ordblindekurser",
+          60,
+          14,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Danskuddannelse",
+          958,
+          295,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          9780,
+          1530,
+          0.1
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          9780,
+          1530,
+          0.1
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud i alt",
+          953,
+          838,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          714,
+          631,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          714,
+          631,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig ansættelse med løntilskud i alt",
+          240,
+          207,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, stat",
+          30,
+          25,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, region",
+          25,
+          23,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, kommune",
+          185,
+          158,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik i alt",
+          5066,
+          2170,
+          0.1
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          3922,
+          1705,
+          0.1
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          3922,
+          1705,
+          0.1
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig virksomhedspraktik i alt",
+          1156,
+          465,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, stat",
+          153,
+          70,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, region",
+          87,
+          46,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, kommune",
+          916,
+          348,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          31,
+          19,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          31,
+          19,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, stat",
+          null,
+          null,
+          0.0
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, kommune",
+          30,
+          19,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Tilbud i alt",
+          17865,
+          6159,
+          0.2
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Vejledning og opkvalificering i alt",
+          12902,
+          2972,
+          0.1
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ordinær uddannelse i alt",
+          3873,
+          1651,
+          0.1
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Almen voksenuddannelse (AVU)",
+          283,
+          60,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Arbejdsmarkedsuddannelse (AMU)",
+          1452,
+          499,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Erhversuddannelse (EUD) m.v.",
+          818,
+          588,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Social- og sundhedsuddannelser (SOSU)",
+          42,
+          26,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Udd. på videregående niveau (KVU, MVU, LVU)",
+          352,
+          199,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Læse-, skrive-, regne- og ordblindekurser",
+          60,
+          10,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Danskuddannelse",
+          906,
+          269,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          9375,
+          1321,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          9375,
+          1321,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud i alt",
+          946,
+          807,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          723,
+          622,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          723,
+          622,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig ansættelse med løntilskud i alt",
+          224,
+          185,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, stat",
+          23,
+          21,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, region",
+          26,
+          24,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, kommune",
+          175,
+          140,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik i alt",
+          5202,
+          2359,
+          0.1
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          3935,
+          1807,
+          0.1
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          3935,
+          1807,
+          0.1
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig virksomhedspraktik i alt",
+          1280,
+          552,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, stat",
+          171,
+          90,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, region",
+          88,
+          52,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, kommune",
+          1022,
+          410,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          37,
+          21,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          37,
+          21,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, stat",
+          null,
+          null,
+          0.0
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, kommune",
+          36,
+          20,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Tilbud i alt",
+          19941,
+          7025,
+          0.2
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Vejledning og opkvalificering i alt",
+          14421,
+          3556,
+          0.1
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ordinær uddannelse i alt",
+          4093,
+          1885,
+          0.1
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Almen voksenuddannelse (AVU)",
+          311,
+          67,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Arbejdsmarkedsuddannelse (AMU)",
+          1589,
+          582,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Erhversuddannelse (EUD) m.v.",
+          715,
+          630,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Social- og sundhedsuddannelser (SOSU)",
+          30,
+          23,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Udd. på videregående niveau (KVU, MVU, LVU)",
+          482,
+          274,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Læse-, skrive-, regne- og ordblindekurser",
+          58,
+          13,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Danskuddannelse",
+          938,
+          296,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          10839,
+          1671,
+          0.1
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          10839,
+          1671,
+          0.1
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud i alt",
+          936,
+          810,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          695,
+          601,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          695,
+          601,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig ansættelse med løntilskud i alt",
+          241,
+          209,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, stat",
+          33,
+          28,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, region",
+          27,
+          24,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, kommune",
+          181,
+          156,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik i alt",
+          6142,
+          2643,
+          0.1
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          4649,
+          2060,
+          0.1
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          4649,
+          2060,
+          0.1
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig virksomhedspraktik i alt",
+          1513,
+          583,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, stat",
+          203,
+          96,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, region",
+          103,
+          48,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, kommune",
+          1212,
+          440,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          45,
+          16,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          45,
+          16,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, stat",
+          null,
+          null,
+          0.0
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, kommune",
+          44,
+          16,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Tilbud i alt",
+          20556,
+          7347,
+          0.2
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Vejledning og opkvalificering i alt",
+          14709,
+          3617,
+          0.1
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ordinær uddannelse i alt",
+          4150,
+          1887,
+          0.1
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Almen voksenuddannelse (AVU)",
+          310,
+          74,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Arbejdsmarkedsuddannelse (AMU)",
+          1683,
+          607,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Erhversuddannelse (EUD) m.v.",
+          650,
+          597,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Social- og sundhedsuddannelser (SOSU)",
+          45,
+          24,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Udd. på videregående niveau (KVU, MVU, LVU)",
+          471,
+          271,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Læse-, skrive-, regne- og ordblindekurser",
+          74,
+          13,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Danskuddannelse",
+          962,
+          302,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11020,
+          1729,
+          0.1
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11020,
+          1729,
+          0.1
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud i alt",
+          994,
+          854,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          740,
+          636,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          740,
+          636,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig ansættelse med løntilskud i alt",
+          254,
+          217,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, stat",
+          40,
+          35,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, region",
+          24,
+          21,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, kommune",
+          190,
+          162,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik i alt",
+          6633,
+          2859,
+          0.1
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          5107,
+          2209,
+          0.1
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          5107,
+          2209,
+          0.1
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig virksomhedspraktik i alt",
+          1552,
+          650,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, stat",
+          217,
+          111,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, region",
+          93,
+          44,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, kommune",
+          1243,
+          495,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          41,
+          18,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          41,
+          18,
+          0.0
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, kommune",
+          41,
+          18,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Tilbud i alt",
+          19959,
+          6855,
+          0.2
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Vejledning og opkvalificering i alt",
+          14683,
+          3531,
+          0.1
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ordinær uddannelse i alt",
+          3954,
+          1820,
+          0.1
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Almen voksenuddannelse (AVU)",
+          287,
+          73,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Arbejdsmarkedsuddannelse (AMU)",
+          1547,
+          598,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Erhversuddannelse (EUD) m.v.",
+          653,
+          574,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Social- og sundhedsuddannelser (SOSU)",
+          30,
+          23,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Udd. på videregående niveau (KVU, MVU, LVU)",
+          448,
+          236,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Læse-, skrive-, regne- og ordblindekurser",
+          55,
+          13,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Danskuddannelse",
+          970,
+          305,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11152,
+          1711,
+          0.1
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11152,
+          1711,
+          0.1
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud i alt",
+          1011,
+          851,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          758,
+          636,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          758,
+          636,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig ansættelse med løntilskud i alt",
+          253,
+          215,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, stat",
+          42,
+          35,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, region",
+          24,
+          21,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, kommune",
+          187,
+          160,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik i alt",
+          5916,
+          2453,
+          0.1
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          4554,
+          1915,
+          0.1
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat virksomhedspraktik",
+          4554,
+          1915,
+          0.1
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig virksomhedspraktik i alt",
+          1383,
+          537,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, stat",
+          195,
+          92,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, region",
+          79,
+          39,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Virksomhedspraktik, kommune",
+          1110,
+          407,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          39,
+          20,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats i alt",
+          39,
+          20,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, stat",
+          null,
+          null,
+          0.0
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "A-kasse i alt",
+          "Nytteindsats, kommune",
+          38,
+          19,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Tilbud i alt",
+          20791,
+          7152,
+          0.2
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Vejledning og opkvalificering i alt",
+          15372,
+          3672,
+          0.1
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ordinær uddannelse i alt",
+          4010,
+          1874,
+          0.1
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Almen voksenuddannelse (AVU)",
+          319,
+          73,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Arbejdsmarkedsuddannelse (AMU)",
+          1552,
+          598,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Erhversuddannelse (EUD) m.v.",
+          639,
+          570,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Social- og sundhedsuddannelser (SOSU)",
+          40,
+          32,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Udd. på videregående niveau (KVU, MVU, LVU)",
+          473,
+          274,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Læse-, skrive-, regne- og ordblindekurser",
+          54,
+          13,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Danskuddannelse",
+          965,
+          316,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11763,
+          1797,
+          0.1
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Øvrige vejlednings- og opkvalificeringsforløb",
+          11763,
+          1797,
+          0.1
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud i alt",
+          1003,
+          845,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          751,
+          638,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Privat ansættelse med løntilskud",
+          751,
+          638,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Offentlig ansættelse med løntilskud i alt",
+          253,
+          208,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, stat",
+          46,
+          41,
+          0.0
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "A-kasse i alt",
+          "Ansættelse med løntilskud, region",
+          22,
+          20,
+          0.0
         ],
         [
           "2026M05",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud, kommune",
-          188,
           185,
-          1.0
+          147,
+          0.0
         ],
         [
           "2026M05",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik i alt",
-          6545,
           6338,
-          1.0
+          2618,
+          0.1
         ],
         [
           "2026M05",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          4913,
           4774,
-          1.0
+          2026,
+          0.1
         ],
         [
           "2026M05",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          4913,
           4774,
-          1.0
+          2026,
+          0.1
         ],
         [
           "2026M05",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig virksomhedspraktik i alt",
-          1632,
           1582,
-          1.0
+          592,
+          0.0
         ],
         [
           "2026M05",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, stat",
-          234,
           225,
-          1.0
+          103,
+          0.0
         ],
         [
           "2026M05",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, region",
-          110,
           105,
-          1.0
+          46,
+          0.0
         ],
         [
           "2026M05",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, kommune",
-          1288,
           1252,
-          1.0
+          443,
+          0.0
         ],
         [
           "2026M05",
@@ -4729,8 +4729,8 @@
           "A-kasse i alt",
           "Nytteindsats i alt",
           33,
-          33,
-          1.0
+          16,
+          0.0
         ],
         [
           "2026M05",
@@ -4738,8 +4738,8 @@
           "A-kasse i alt",
           "Nytteindsats i alt",
           33,
-          33,
-          1.0
+          16,
+          0.0
         ],
         [
           "2026M05",
@@ -4748,7 +4748,7 @@
           "Nytteindsats, stat",
           null,
           null,
-          1.0
+          0.0
         ],
         [
           "2026M05",
@@ -4756,62 +4756,62 @@
           "A-kasse i alt",
           "Nytteindsats, kommune",
           32,
-          32,
-          1.0
+          15,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Tilbud i alt",
-          22947,
           19657,
-          1.2
+          6690,
+          0.2
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Vejledning og opkvalificering i alt",
-          15613,
           14244,
-          1.1
+          3282,
+          0.1
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Ordinær uddannelse i alt",
-          3951,
           3755,
-          1.1
+          1601,
+          0.1
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Almen voksenuddannelse (AVU)",
-          289,
           286,
-          1.0
+          75,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Arbejdsmarkedsuddannelse (AMU)",
-          1657,
           1524,
-          1.1
+          512,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Erhversuddannelse (EUD) m.v.",
-          604,
           593,
-          1.0
+          516,
+          0.0
         ],
         [
           "2026M06",
@@ -4819,80 +4819,80 @@
           "A-kasse i alt",
           "Social- og sundhedsuddannelser (SOSU)",
           31,
-          31,
-          1.0
+          22,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Udd. på videregående niveau (KVU, MVU, LVU)",
-          379,
           375,
-          1.0
+          191,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Læse-, skrive-, regne- og ordblindekurser",
-          50,
           48,
-          1.0
+          9,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Danskuddannelse",
-          941,
           924,
-          1.0
+          276,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          11662,
           10847,
-          1.1
+          1681,
+          0.1
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Øvrige vejlednings- og opkvalificeringsforløb",
-          11662,
           10847,
-          1.1
+          1681,
+          0.1
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Ansættelse med løntilskud i alt",
-          1000,
           994,
-          1.0
+          849,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          759,
           754,
-          1.0
+          649,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Privat ansættelse med løntilskud",
-          759,
           754,
-          1.0
+          649,
+          0.0
         ],
         [
           "2026M06",
@@ -4900,8 +4900,8 @@
           "A-kasse i alt",
           "Offentlig ansættelse med løntilskud i alt",
           241,
-          241,
-          1.0
+          199,
+          0.0
         ],
         [
           "2026M06",
@@ -4909,8 +4909,8 @@
           "A-kasse i alt",
           "Ansættelse med løntilskud, stat",
           42,
-          42,
-          1.0
+          37,
+          0.0
         ],
         [
           "2026M06",
@@ -4918,8 +4918,8 @@
           "A-kasse i alt",
           "Ansættelse med løntilskud, region",
           25,
-          25,
-          1.0
+          20,
+          0.0
         ],
         [
           "2026M06",
@@ -4927,89 +4927,89 @@
           "A-kasse i alt",
           "Ansættelse med løntilskud, kommune",
           174,
-          174,
-          1.0
+          142,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik i alt",
-          6299,
           6117,
-          1.0
+          2547,
+          0.1
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          4802,
           4675,
-          1.0
+          1979,
+          0.1
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Privat virksomhedspraktik",
-          4802,
           4675,
-          1.0
+          1979,
+          0.1
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Offentlig virksomhedspraktik i alt",
-          1497,
           1460,
-          1.0
+          568,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, stat",
-          204,
           196,
-          1.0
+          92,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, region",
-          108,
           100,
-          1.1
+          55,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Virksomhedspraktik, kommune",
-          1185,
           1165,
-          1.0
+          422,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          35,
           34,
-          1.0
+          12,
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats i alt",
-          35,
           34,
-          1.0
+          12,
+          0.0
         ],
         [
           "2026M06",
@@ -5018,16 +5018,16 @@
           "Nytteindsats, stat",
           null,
           null,
-          1.0
+          0.0
         ],
         [
           "2026M06",
           "Hele landet",
           "A-kasse i alt",
           "Nytteindsats, kommune",
-          34,
           33,
-          1.0
+          11,
+          0.0
         ]
       ]
     },
@@ -5329,6 +5329,213 @@
           "Supplerende dagpenge ud over 13 uger",
           80,
           6
+        ]
+      ]
+    },
+    "new_work_sharing": {
+      "columns": [
+        "Periode",
+        "Område",
+        "Arbejdsfordelingstype",
+        "Antal personer, tilgang",
+        "Antal sager, tilgang"
+      ],
+      "rows": [
+        [
+          "2025M05",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          50,
+          9
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          16,
+          null
+        ],
+        [
+          "2025M07",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          16,
+          null
+        ],
+        [
+          "2025M08",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          184,
+          5
+        ],
+        [
+          "2025M09",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          40,
+          6
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          88,
+          8
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          22,
+          6
+        ],
+        [
+          "2026M06",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          70,
+          5
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          205,
+          11
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          39,
+          null
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          337,
+          33
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          135,
+          13
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          100,
+          10
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "Supplerende dagpenge op til 13 uger",
+          39,
+          4
+        ],
+        [
+          "2025M05",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          29,
+          3
+        ],
+        [
+          "2025M06",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          6,
+          null
+        ],
+        [
+          "2025M07",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          null,
+          null
+        ],
+        [
+          "2025M08",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          null,
+          null
+        ],
+        [
+          "2025M09",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          38,
+          null
+        ],
+        [
+          "2025M10",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          null,
+          null
+        ],
+        [
+          "2026M05",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          null,
+          null
+        ],
+        [
+          "2026M06",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          null,
+          null
+        ],
+        [
+          "2025M11",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          21,
+          null
+        ],
+        [
+          "2025M12",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          12,
+          null
+        ],
+        [
+          "2026M01",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          null,
+          null
+        ],
+        [
+          "2026M02",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          41,
+          4
+        ],
+        [
+          "2026M03",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          null,
+          null
+        ],
+        [
+          "2026M04",
+          "Hele landet",
+          "Supplerende dagpenge ud over 13 uger",
+          9,
+          null
         ]
       ]
     },
@@ -7031,6 +7238,6 @@
     }
   },
   "failures": {
-    "recruitment": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_nykom']\",\"request_id\":\"d93663a8-36f4-473a-a2ff-834be550e415\"}"
+    "recruitment": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_hele_landet']\",\"request_id\":\"dcaa82ae-d6a7-466d-b6cb-0ea960475bc1\"}"
   }
 }
