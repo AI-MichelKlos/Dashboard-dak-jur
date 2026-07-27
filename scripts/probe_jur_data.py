@@ -32,7 +32,7 @@ QUERIES = {
         "&hierarchy._akassebl=*&format=json"
     ),
     "activation": (
-        "data/y01c02?mgroup.*=*&period.M=latest:14"
+        "data/y01c01?mgroup.*=*&period.M=latest:14"
         "&hierarchy._nykom=/&hierarchy._akassedp=/"
         "&hierarchy._tilb_2ptv=*&format=json"
     ),
@@ -44,9 +44,13 @@ QUERIES = {
         "data/y25i06?mgroup.*=*&period.M=latest:14"
         "&hierarchy._nykom=/&hierarchy._var13uger=*&format=json"
     ),
+    "new_work_sharing": (
+        "data/y25i06b?mgroup.*=*&period.M=latest:14"
+        "&hierarchy._nykom=/&hierarchy._var13uger=*&format=json"
+    ),
     "recruitment": (
         "data/y25i14?mgroup.*=*&period.M=latest:8"
-        "&hierarchy._nykom=/&hierarchy._escostar_rs=/&format=json"
+        "&hierarchy._hele_landet=/&hierarchy._escostar_rs=/&format=json"
     ),
     "graduates_total": (
         "data/y01dia02?mgroup.*=*&period.M=latest:14"
