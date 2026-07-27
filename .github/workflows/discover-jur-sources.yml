@@ -8,6 +8,7 @@ on:
     paths:
       - "scripts/discover_jur_sources.py"
       - "scripts/probe_jur_data.py"
+      - "scripts/update_jur_dashboard.py"
       - ".github/workflows/discover-jur-sources.yml"
 
 permissions:
@@ -16,32 +17,36 @@ permissions:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     env:
       JOBINDSATS_API_TOKEN: ${{ secrets.API_ADGANG }}
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Kontroller secret
         run: |
           if [ -z "$JOBINDSATS_API_TOKEN" ]; then
             echo "Secretet API_ADGANG mangler eller er tomt."
             exit 1
           fi
-
       - name: Test og kortlæg Jobindsats
         run: |
           python scripts/discover_jur_sources.py
           python scripts/probe_jur_data.py
-
-      - name: Gem offentlig metadata på testgrenen
+      - name: Test den samlede dashboardopdatering
         run: |
-          git add data/jobindsats-jur-discovery.json data/jur-api-probe.json
+          set +e
+          python scripts/update_jur_dashboard.py > data/update-test.log 2>&1
+          status=$?
+          echo "$status" > data/update-exit-code.txt
+          cat data/update-test.log
+          exit 0
+      - name: Gem testresultater
+        run: |
+          git add index.html data/jobindsats-jur-discovery.json data/jur-api-probe.json data/dashboard-data.json data/update-test.log data/update-exit-code.txt
           git config user.name "JUR dashboard automation"
           git config user.email "jur-dashboard-automation@users.noreply.github.com"
-          git commit -m "Gem Jobindsats-kortlægning"
+          git commit -m "Gem samlet JUR-opdateringstest"
           git push
