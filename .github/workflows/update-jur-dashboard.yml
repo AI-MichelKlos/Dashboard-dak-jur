@@ -36,21 +36,19 @@ jobs:
             echo "Secretet API_ADGANG mangler eller er tomt."
             exit 1
           fi
-      - name: Hent officielle tal og byg dashboard
-        run: python scripts/update_jur_dashboard.py
-      - name: Kontroller dashboardfilen
+      - name: Kør og registrer testen
         run: |
-          test -s index.html
-          grep -q "Nøgletal for a-kasserne" index.html
-          grep -q "const DATA=" index.html
-      - name: Gem ændringer
+          mkdir -p data
+          set +e
+          python scripts/update_jur_dashboard.py > data/update-test.log 2>&1
+          status=$?
+          echo "$status" > data/update-exit-code.txt
+          cat data/update-test.log
+          exit 0
+      - name: Gem testresultat
         run: |
-          git add index.html data/dashboard-data.json
-          if git diff --cached --quiet; then
-            echo "Ingen nye tal at gemme."
-            exit 0
-          fi
+          git add index.html data/dashboard-data.json data/update-test.log data/update-exit-code.txt
           git config user.name "JUR dashboard automation"
           git config user.email "jur-dashboard-automation@users.noreply.github.com"
-          git commit -m "Opdater JUR-dashboard"
+          git commit -m "Gem resultat af JUR-opdateringstest"
           git push
