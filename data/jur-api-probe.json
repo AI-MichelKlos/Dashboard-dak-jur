@@ -1,0 +1,18 @@
+{
+  "results": {},
+  "failures": {
+    "unemployment_total": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"a36e2446-2701-40be-be27-6ade499fc1d0\"}",
+    "unemployment_akasser": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"3624ae77-9a8c-4860-8613-4b4669e03cd3\"}",
+    "longterm_total": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"d30ec3a6-d756-4e55-b559-2c476dc46552\"}",
+    "longterm_akasser": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"3b189a7c-21df-40d5-b1f3-25ef276119be\"}",
+    "activation": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"4d279db8-6460-4c42-9b1b-bb3d27c428f9\"}",
+    "notices": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"47ed03a7-d8ba-4aea-b071-a571d18519e6\"}",
+    "work_sharing": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"cb41fe55-0a70-4267-b600-be6c68a3f8ca\"}",
+    "recruitment": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"6102405d-08b7-43e2-86d4-f0599156d8e0\"}",
+    "graduates_total": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"0cc08dd3-c84b-4628-87fb-8c23b7f8c363\"}",
+    "graduates_akasser": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"201ab6ba-5d62-4a82-bb36-1b7f353cce34\"}",
+    "expired_graduates": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"7b503e8e-1aa9-4027-9618-26eaf07cc4c8\"}",
+    "sanctions_total": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"6a64ddd1-d74e-4539-aa42-3887d7dd6e99\"}",
+    "sanctions_akasser": "Jobindsats returnerede HTTP 422: {\"code\":422,\"cause\":\"Unknown hierarchies: ['_omrade']\",\"request_id\":\"e98757f6-b412-46bf-a0a5-436ad7cfbd15\"}"
+  }
+}
