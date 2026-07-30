@@ -31,30 +31,55 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Kontroller Jobindsats-secret
+
+      - name: Kør JUR-opdatering og gem status
+        id: update
+        shell: bash
         run: |
+          mkdir -p status
+          started="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           if [ -z "$JOBINDSATS_API_TOKEN" ]; then
-            echo "Secretet API_ADGANG mangler eller er tomt."
-            exit 1
+            printf 'status: fejl\ntid_utc: %s\ntrin: secret\nfejl: API_ADGANG mangler eller er tomt\n' "$started" > status/last-run.txt
+            echo "exit_code=1" >> "$GITHUB_OUTPUT"
+          else
+            set +e
+            python -m py_compile scripts/update_jur_dashboard.py scripts/run_jur_update.py > status/run.log 2>&1
+            code=$?
+            if [ "$code" -eq 0 ]; then
+              python scripts/run_jur_update.py >> status/run.log 2>&1
+              code=$?
+            fi
+            set -e
+            if [ "$code" -eq 0 ]; then
+              printf 'status: ok\ntid_utc: %s\n' "$started" > status/last-run.txt
+            else
+              message="$(tail -n 12 status/run.log | tr '\n' ' ' | sed 's/[[:space:]]\+/ /g')"
+              printf 'status: fejl\ntid_utc: %s\ntrin: opdatering\nfejl: %s\n' "$started" "$message" > status/last-run.txt
+            fi
+            echo "exit_code=$code" >> "$GITHUB_OUTPUT"
           fi
-      - name: Kontroller Python-koden
-        run: python -m py_compile scripts/update_jur_dashboard.py scripts/run_jur_update.py
-      - name: Hent officielle tal og byg dashboard
-        run: python scripts/run_jur_update.py
+
       - name: Kontroller dashboardfilen
+        if: steps.update.outputs.exit_code == '0'
         run: |
           test -s index.html
           test -s data/dashboard-data.json
           grep -q "Nøgletal for a-kasserne" index.html
           grep -q "const DATA=" index.html
-      - name: Gem ændringer
+
+      - name: Gem data og status
+        if: always()
         run: |
-          git add index.html data/dashboard-data.json
+          git add index.html data/dashboard-data.json status/last-run.txt 2>/dev/null || true
           if git diff --cached --quiet; then
-            echo "Ingen nye tal at gemme."
-            exit 0
+            echo "Ingen ændringer at gemme."
+          else
+            git config user.name "JUR dashboard automation"
+            git config user.email "jur-dashboard-automation@users.noreply.github.com"
+            git commit -m "Opdater JUR-dashboardstatus"
+            git push
           fi
-          git config user.name "JUR dashboard automation"
-          git config user.email "jur-dashboard-automation@users.noreply.github.com"
-          git commit -m "Opdater JUR-dashboard"
-          git push
+
+      - name: Markér mislykket kørsel
+        if: steps.update.outputs.exit_code != '0'
+        run: exit 1
