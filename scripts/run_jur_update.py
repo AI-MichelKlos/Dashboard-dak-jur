@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import math
+import re
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -33,8 +34,42 @@ def robust_num(value):
     return int(number) if number.is_integer() else round(number, 4)
 
 
-# All functions in update_jur_dashboard resolve num dynamically from the module.
+_original_api_get = updater.api_get
+
+
+def resilient_api_get(path):
+    """Retry when Jobindsats reports fewer available periods than requested."""
+    try:
+        return _original_api_get(path)
+    except RuntimeError as exc:
+        message = str(exc)
+        match = re.search(
+            r"Requested latest:(\d+) for type ([MQ]), but only (\d+) periods are available",
+            message,
+        )
+        if not match:
+            raise
+        period_type = match.group(2)
+        available = match.group(3)
+        adjusted_path = re.sub(
+            rf"period\.{period_type}=latest:\d+",
+            f"period.{period_type}=latest:{available}",
+            path,
+            count=1,
+        )
+        if adjusted_path == path:
+            raise
+        print(
+            f"Jobindsats har kun {available} perioder for type {period_type}; "
+            "kaldet tilpasses automatisk.",
+            flush=True,
+        )
+        return _original_api_get(adjusted_path)
+
+
+# Functions in update_jur_dashboard resolve these names dynamically.
 updater.num = robust_num
+updater.api_get = resilient_api_get
 
 
 def main():
