@@ -1,0 +1,62 @@
+Starter: ledighed fordelt på a-kasse
+Færdig: ledighed fordelt på a-kasse
+Starter: langtidsledighed
+Færdig: langtidsledighed
+Starter: aktiveringstilbud
+Færdig: aktiveringstilbud
+Starter: varslede afskedigelser
+Færdig: varslede afskedigelser
+Starter: arbejdsfordeling
+Færdig: arbejdsfordeling
+Starter: dimittendledighed
+Færdig: dimittendledighed
+Starter: opbrugt dagpengeret
+Færdig: opbrugt dagpengeret
+Starter: sanktioner
+Traceback (most recent call last):
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/update_jur_dashboard.py", line 30, in api_get
+    with urllib.request.urlopen(req,timeout=60) as res:return json.loads(res.read().decode('utf-8'))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 422: Unprocessable Content
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/run_jur_update.py", line 58, in main
+    refresh(data)
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/update_jur_dashboard.py", line 125, in refresh_sanctions
+    rows=records('data/y01h01?mgroup.*=*&period.Q=latest:40&hierarchy._nykom=/&hierarchy._akassedp=*&format=json')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/update_jur_dashboard.py", line 35, in records
+    r=api_get(path); cols=r.get('columns'); rows=r.get('rows')
+      ^^^^^^^^^^^^^
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/update_jur_dashboard.py", line 32, in api_get
+    detail=exc.read().decode('utf-8',errors='replace');raise RuntimeError(f'Jobindsats returnerede HTTP {exc.code}: {detail[:300]}') from exc
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Jobindsats returnerede HTTP 422: {"code":422,"cause":"Requested latest:40 for type Q, but only 29 periods are available.","request_id":"24c62283-af00-4bd4-bda4-018b75bead32"}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/run_jur_update.py", line 86, in <module>
+    main()
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/run_jur_update.py", line 60, in main
+    raise RuntimeError(f"JUR-opdateringen stoppede ved '{label}': {exc}") from exc
+RuntimeError: JUR-opdateringen stoppede ved 'sanktioner': Jobindsats returnerede HTTP 422: {"code":422,"cause":"Requested latest:40 for type Q, but only 29 periods are available.","request_id":"24c62283-af00-4bd4-bda4-018b75bead32"}
