@@ -67,6 +67,29 @@ def resilient_api_get(path):
         return _original_api_get(adjusted_path)
 
 
+def sync_visible_date(data):
+    """Keep the visible HTML date aligned with meta.versionDate."""
+    version_date = str(data.get("meta", {}).get("versionDate", "")).strip()
+    if not version_date:
+        raise RuntimeError("Dashboardets versionDate mangler")
+
+    html = updater.HTML_PATH.read_text(encoding="utf-8")
+    pattern = (
+        r'(<section class="date-box" aria-label="Dato for versionen">)'
+        r'.*?'
+        r'(</section>)'
+    )
+    updated_html, replacements = re.subn(
+        pattern,
+        lambda match: f"{match.group(1)}{version_date}{match.group(2)}",
+        html,
+        count=1,
+    )
+    if replacements != 1:
+        raise RuntimeError("Kunne ikke finde den synlige datoboks i index.html")
+    updater.HTML_PATH.write_text(updated_html, encoding="utf-8")
+
+
 # Functions in update_jur_dashboard resolve these names dynamically.
 updater.num = robust_num
 updater.api_get = resilient_api_get
@@ -97,7 +120,9 @@ def main():
 
     after = json.dumps(data, ensure_ascii=False, sort_keys=True)
     if before == after and had_data_file:
-        print("Ingen nye eller ændrede Jobindsats-tal.")
+        updater.render(data)
+        sync_visible_date(data)
+        print("Ingen nye eller ændrede Jobindsats-tal; HTML-datoen er synkroniseret.")
         return
 
     now = datetime.now(ZoneInfo("Europe/Copenhagen"))
@@ -114,6 +139,7 @@ def main():
         encoding="utf-8",
     )
     updater.render(data)
+    sync_visible_date(data)
     print(f"JUR-dashboardet er opdateret: {data['meta']['versionDate']}.")
 
 
