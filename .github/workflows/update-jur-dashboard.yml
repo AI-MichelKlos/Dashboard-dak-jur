@@ -40,6 +40,7 @@ jobs:
           started="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           if [ -z "$JOBINDSATS_API_TOKEN" ]; then
             printf 'status: fejl\ntid_utc: %s\ntrin: secret\nfejl: API_ADGANG mangler eller er tomt\n' "$started" > status/last-run.txt
+            echo "API_ADGANG mangler eller er tomt."
             echo "exit_code=1" >> "$GITHUB_OUTPUT"
           else
             set +e
@@ -50,6 +51,7 @@ jobs:
               code=$?
             fi
             set -e
+            cat status/run.log || true
             if [ "$code" -eq 0 ]; then
               printf 'status: ok\ntid_utc: %s\n' "$started" > status/last-run.txt
             else
@@ -70,7 +72,7 @@ jobs:
       - name: Gem data og status
         if: always()
         run: |
-          git add index.html data/dashboard-data.json status/last-run.txt 2>/dev/null || true
+          git add -A
           if git diff --cached --quiet; then
             echo "Ingen ændringer at gemme."
           else
