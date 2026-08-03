@@ -9,7 +9,6 @@ on:
     paths:
       - "scripts/update_jur_dashboard.py"
       - "scripts/run_jur_update.py"
-      - "scripts/audit_jur_sources.py"
       - ".github/workflows/update-jur-dashboard.yml"
   schedule:
     - cron: "15 9 * * 1-5"
@@ -46,7 +45,7 @@ jobs:
             echo "exit_code=1" >> "$GITHUB_OUTPUT"
           else
             set +e
-            python -m py_compile scripts/update_jur_dashboard.py scripts/run_jur_update.py scripts/audit_jur_sources.py > status/run.log 2>&1
+            python -m py_compile scripts/update_jur_dashboard.py scripts/run_jur_update.py > status/run.log 2>&1
             code=$?
             if [ "$code" -eq 0 ]; then
               python scripts/run_jur_update.py >> status/run.log 2>&1
