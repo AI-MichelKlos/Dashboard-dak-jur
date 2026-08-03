@@ -1,1 +1,61 @@
-[Errno 2] No such file or directory: 'scripts/audit_jur_sources.py'
+Starter: ledighed fordelt på a-kasse
+Traceback (most recent call last):
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/run_jur_update.py", line 116, in main
+    refresh(data)
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/update_jur_dashboard.py", line 92, in refresh_unemployment
+    merge_akasse(d['sections']['unemploymentAkasser'],records('data/y25i01?mgroup.*=*&period.M=latest:120&hierarchy._nykom=/&hierarchy._ygrpi09=/&hierarchy._akassebl=*&format=json'),'Antal ledige fuldtidspersoner')
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/update_jur_dashboard.py", line 35, in records
+    r=api_get(path); cols=r.get('columns'); rows=r.get('rows')
+      ^^^^^^^^^^^^^
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/run_jur_update.py", line 43, in resilient_api_get
+    return _original_api_get(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/update_jur_dashboard.py", line 30, in api_get
+    with urllib.request.urlopen(req,timeout=60) as res:return json.loads(res.read().decode('utf-8'))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/http/client.py", line 1450, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/run_jur_update.py", line 147, in <module>
+    main()
+  File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/run_jur_update.py", line 118, in main
+    raise RuntimeError(f"JUR-opdateringen stoppede ved '{label}': {exc}") from exc
+RuntimeError: JUR-opdateringen stoppede ved 'ledighed fordelt på a-kasse': The read operation timed out
