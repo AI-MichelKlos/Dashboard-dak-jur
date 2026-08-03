@@ -1,18 +1,1 @@
-Starter: ledighed fordelt på a-kasse
-Færdig: ledighed fordelt på a-kasse
-Starter: langtidsledighed
-Færdig: langtidsledighed
-Starter: aktiveringstilbud
-Færdig: aktiveringstilbud
-Starter: varslede afskedigelser
-Færdig: varslede afskedigelser
-Starter: arbejdsfordeling
-Færdig: arbejdsfordeling
-Starter: dimittendledighed
-Færdig: dimittendledighed
-Starter: opbrugt dagpengeret
-Færdig: opbrugt dagpengeret
-Starter: sanktioner
-Jobindsats har kun 29 perioder for type Q; kaldet tilpasses automatisk.
-Færdig: sanktioner
-Ingen nye eller ændrede Jobindsats-tal; HTML-datoen er synkroniseret.
+[Errno 2] No such file or directory: 'scripts/audit_jur_sources.py'
