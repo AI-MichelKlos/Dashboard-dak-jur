@@ -11,8 +11,8 @@ on:
       - "scripts/run_jur_update.py"
       - ".github/workflows/update-jur-dashboard.yml"
   schedule:
-    - cron: "15 9 * * 1-5"
-      timezone: "Europe/Copenhagen"
+    - cron: "15 7 * * 1-5"
+    - cron: "15 8 * * 1-5"
 
 permissions:
   contents: write
@@ -28,12 +28,36 @@ jobs:
     env:
       JOBINDSATS_API_TOKEN: ${{ secrets.API_ADGANG }}
     steps:
+      - name: Afgør om den planlagte kørsel skal fortsætte
+        id: localtime
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          local_time="$(TZ=Europe/Copenhagen date +'%Y-%m-%d %H:%M %Z')"
+          local_hour="$(TZ=Europe/Copenhagen date +'%H')"
+          echo "Lokal tid i København: $local_time"
+
+          if [ "$local_hour" = "09" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Springer over: den anden UTC-plan rammer ikke kl. 09 dansk tid."
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.localtime.outputs.should_run == 'true'
+
       - uses: actions/setup-python@v5
+        if: steps.localtime.outputs.should_run == 'true'
         with:
           python-version: "3.12"
 
       - name: Kør JUR-opdatering og gem status
+        if: steps.localtime.outputs.should_run == 'true'
         id: update
         shell: bash
         run: |
@@ -63,7 +87,7 @@ jobs:
           fi
 
       - name: Kontroller dashboardfilen
-        if: steps.update.outputs.exit_code == '0'
+        if: steps.localtime.outputs.should_run == 'true' && steps.update.outputs.exit_code == '0'
         run: |
           test -s index.html
           test -s data/dashboard-data.json
@@ -71,7 +95,7 @@ jobs:
           grep -q "const DATA=" index.html
 
       - name: Gem data og status
-        if: always()
+        if: steps.localtime.outputs.should_run == 'true' && always()
         run: |
           git add -A
           if git diff --cached --quiet; then
@@ -84,5 +108,5 @@ jobs:
           fi
 
       - name: Markér mislykket kørsel
-        if: steps.update.outputs.exit_code != '0'
+        if: steps.localtime.outputs.should_run == 'true' && steps.update.outputs.exit_code != '0'
         run: exit 1
