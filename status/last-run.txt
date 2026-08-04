@@ -1,4 +1,4 @@
 status: fejl
-tid_utc: 2026-08-03T08:20:08Z
+tid_utc: 2026-08-04T08:47:29Z
 trin: opdatering
 fejl:  return self._sslobj.read(len, buffer) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ TimeoutError: The read operation timed out The above exception was the direct cause of the following exception: Traceback (most recent call last): File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/run_jur_update.py", line 147, in <module> main() File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/run_jur_update.py", line 118, in main raise RuntimeError(f"JUR-opdateringen stoppede ved '{label}': {exc}") from exc RuntimeError: JUR-opdateringen stoppede ved 'ledighed fordelt på a-kasse': The read operation timed out 
