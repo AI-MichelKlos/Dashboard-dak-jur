@@ -115,15 +115,24 @@ def resilient_api_get(path):
     ) from last_error
 
 
-def sync_visible_date(data):
-    """Keep the visible HTML date and update status aligned with metadata."""
-    version_date = str(data.get("meta", {}).get("versionDate", "")).strip()
-    if not version_date:
-        raise RuntimeError("Dashboardets versionDate mangler")
+def danish_date(now):
+    months = (
+        "januar", "februar", "marts", "april", "maj", "juni",
+        "juli", "august", "september", "oktober", "november", "december",
+    )
+    return f"{now.day}. {months[now.month - 1]} {now.year}"
 
-    status = data.get("meta", {}).get("updateStatus", {})
+
+def sync_visible_date(data):
+    """Keep the visible HTML run date and update status aligned with metadata."""
+    meta = data.get("meta", {})
+    run_date = str(meta.get("lastRunDate") or meta.get("versionDate") or "").strip()
+    if not run_date:
+        raise RuntimeError("Dashboardets kørselsdato mangler")
+
+    status = meta.get("updateStatus", {})
     state = status.get("state", "ok")
-    visible = html_escape(version_date)
+    visible = f"Senest kørt {html_escape(run_date)}"
     if state == "partial":
         failed = ", ".join(html_escape(str(item)) for item in status.get("failed", []))
         visible += (
@@ -134,7 +143,7 @@ def sync_visible_date(data):
     elif state == "stale":
         visible += (
             '<br><span style="font-size:12px;color:#a12622">'
-            "Seneste opdateringsforsøg fejlede. Dashboardet viser seneste gyldige data."
+            "Datahentningen fejlede. Dashboardet viser seneste gyldige data."
             "</span>"
         )
 
@@ -192,24 +201,26 @@ def main():
     after_refresh = json.dumps(data, ensure_ascii=False, sort_keys=True)
     numbers_changed = before != after_refresh
     now = datetime.now(ZoneInfo("Europe/Copenhagen"))
+    run_date = danish_date(now)
     state = "ok" if not failures else ("partial" if successes else "stale")
     update_status = {
         "state": state,
         "successful": successes,
         "failed": failures,
+        "checkedAt": now.isoformat(timespec="seconds"),
+        "numbersChanged": numbers_changed,
         "periodsFetchedPerRun": {"months": MONTH_LIMIT, "quarters": QUARTER_LIMIT},
     }
-    if state != "ok":
-        update_status["checkedAt"] = now.isoformat(timespec="seconds")
-    data.setdefault("meta", {})["updateStatus"] = update_status
+    meta = data.setdefault("meta", {})
+    meta["updateStatus"] = update_status
+    meta["lastRunAt"] = now.isoformat(timespec="seconds")
+    meta["lastRunDate"] = run_date
 
-    if successes and (numbers_changed or not had_data_file):
-        months = (
-            "januar", "februar", "marts", "april", "maj", "juni",
-            "juli", "august", "september", "oktober", "november", "december",
-        )
-        data["meta"]["versionDate"] = f"{now.day}. {months[now.month - 1]} {now.year}"
-        data["meta"]["sourceFile"] = "Officielle API-kilder med tidligere Excel-data som fallback"
+    if successes:
+        # versionDate is the visible daily run date. The actual source periods remain
+        # visible in the KPI cards, tables and charts.
+        meta["versionDate"] = run_date
+        meta["sourceFile"] = "Officielle API-kilder med tidligere Excel-data som fallback"
 
     updater.DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     updater.DATA_PATH.write_text(
@@ -221,20 +232,21 @@ def main():
 
     if state == "ok":
         if numbers_changed or not had_data_file:
-            print(f"JUR-dashboardet er opdateret: {data['meta']['versionDate']}.")
+            print(f"JUR-dashboardets tal og kørselsdato er opdateret: {run_date}.")
         else:
-            print("Ingen nye eller ændrede Jobindsats-tal; HTML-datoen er synkroniseret.")
+            print(f"Ingen nye Jobindsats-tal. Kørselsdatoen er opdateret: {run_date}.")
         return
     if state == "partial":
         print(
-            "JUR-dashboardet blev delvist opdateret. Seneste gyldige data er bevaret "
-            f"for: {', '.join(failures)}.",
+            f"JUR-dashboardets kørselsdato er opdateret: {run_date}. "
+            "Seneste gyldige data er bevaret for: "
+            f"{', '.join(failures)}.",
             flush=True,
         )
         return
 
     raise RuntimeError(
-        "Alle JUR-datasæt fejlede. Seneste gyldige data er bevaret og markeret i dashboardet."
+        "Alle JUR-datasæt fejlede. Kørselsdatoen er gemt, og seneste gyldige data er bevaret."
     )
 
 
