@@ -74,20 +74,8 @@ jobs:
             python -m py_compile scripts/update_jur_dashboard.py scripts/run_jur_update.py > status/run.log 2>&1
             code=$?
             if [ "$code" -eq 0 ]; then
-              code=1
-              for attempt in 1 2 3; do
-                echo "Forsøg $attempt af 3" | tee -a status/run.log
-                python scripts/run_jur_update.py >> status/run.log 2>&1
-                code=$?
-                if [ "$code" -eq 0 ]; then
-                  break
-                fi
-                if [ "$attempt" -lt 3 ]; then
-                  pause=$((attempt * 45))
-                  echo "Opdateringen fejlede. Prøver igen om $pause sekunder." | tee -a status/run.log
-                  sleep "$pause"
-                fi
-              done
+              python scripts/run_jur_update.py >> status/run.log 2>&1
+              code=$?
             fi
             set -e
             cat status/run.log || true
@@ -111,13 +99,13 @@ jobs:
       - name: Gem data og status
         if: steps.localtime.outputs.should_run == 'true' && always()
         run: |
-          git add -A
+          git add index.html data/dashboard-data.json status/last-run.txt
           if git diff --cached --quiet; then
             echo "Ingen ændringer at gemme."
           else
             git config user.name "JUR dashboard automation"
             git config user.email "jur-dashboard-automation@users.noreply.github.com"
-            git commit -m "Opdater JUR-dashboardstatus"
+            git commit -m "Opdater JUR-dashboarddata og status"
             git push
           fi
 
