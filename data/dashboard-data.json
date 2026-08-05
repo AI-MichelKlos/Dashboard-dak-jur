@@ -1,7 +1,25 @@
 {
   "meta": {
     "versionDate": "31. juli 2026",
-    "sourceFile": "Officielle API-kilder med tidligere Excel-data som fallback"
+    "sourceFile": "Officielle API-kilder med tidligere Excel-data som fallback",
+    "updateStatus": {
+      "state": "ok",
+      "successful": [
+        "ledighed fordelt på a-kasse",
+        "langtidsledighed",
+        "aktiveringstilbud",
+        "varslede afskedigelser",
+        "arbejdsfordeling",
+        "dimittendledighed",
+        "opbrugt dagpengeret",
+        "sanktioner"
+      ],
+      "failed": [],
+      "periodsFetchedPerRun": {
+        "months": 24,
+        "quarters": 12
+      }
+    }
   },
   "sections": {
     "unemploymentAkasser": {
