@@ -1,6 +1,6 @@
 {
   "meta": {
-    "versionDate": "5. august 2026",
+    "versionDate": "6. august 2026",
     "sourceFile": "Officielle API-kilder med tidligere Excel-data som fallback",
     "updateStatus": {
       "state": "ok",
@@ -15,15 +15,15 @@
         "sanktioner"
       ],
       "failed": [],
-      "checkedAt": "2026-08-05T16:32:16+02:00",
+      "checkedAt": "2026-08-06T10:27:34+02:00",
       "numbersChanged": false,
       "periodsFetchedPerRun": {
         "months": 24,
         "quarters": 12
       }
     },
-    "lastRunAt": "2026-08-05T16:32:16+02:00",
-    "lastRunDate": "5. august 2026"
+    "lastRunAt": "2026-08-06T10:27:34+02:00",
+    "lastRunDate": "6. august 2026"
   },
   "sections": {
     "unemploymentAkasser": {
