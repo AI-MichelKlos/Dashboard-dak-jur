@@ -32,6 +32,8 @@ jobs:
       JOBINDSATS_API_TOKEN: ${{ secrets.API_ADGANG }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Afgør om opdateringen skal gennemføres
         id: gate
@@ -65,6 +67,24 @@ jobs:
         if: steps.gate.outputs.should_run == 'true'
         with:
           python-version: "3.12"
+
+      - name: Reparer kendt AUP03-historikfejl
+        if: steps.gate.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          if python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('data/dashboard-data.json').read_text(encoding='utf-8'))
+          values = data['sections']['unemploymentPercent']['byAkasse']['Akademikernes A-kasse']
+          raise SystemExit(0 if len(values) >= 10 and all(v == 0 for v in values[:10]) else 1)
+          PY
+          then
+            echo "Genopretter seneste kendte korrekte historik før AUP03-opdatering."
+            git checkout e6df04fc4683ce5154c0fd032b22306435ed33ec -- data/dashboard-data.json index.html
+          else
+            echo "Ingen historikreparation nødvendig."
+          fi
 
       - name: Kør JUR-opdatering og gem status
         if: steps.gate.outputs.should_run == 'true'
@@ -109,6 +129,15 @@ jobs:
           grep -q "Nøgletal for a-kasserne" index.html
           grep -q "const DATA=" index.html
           grep -q '"AUP03"' data/dashboard-data.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('data/dashboard-data.json').read_text(encoding='utf-8'))
+          sec = data['sections']['unemploymentPercent']
+          assert sec['labels'][-1] == data['meta']['sourceStatus']['AUP03']['latestPeriod']
+          assert sec['total'][-1] is not None
+          assert all(values[-1] is not None for values in sec['byAkasse'].values())
+          PY
 
       - name: Gem data og status
         if: steps.gate.outputs.should_run == 'true' && always()
