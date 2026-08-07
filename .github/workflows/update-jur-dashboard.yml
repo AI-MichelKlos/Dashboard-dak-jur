@@ -9,6 +9,8 @@ on:
     paths:
       - "scripts/update_jur_dashboard.py"
       - "scripts/run_jur_update.py"
+      - "scripts/update_dst_unemployment_percent.py"
+      - "scripts/refresh_dst_sources.py"
       - ".github/workflows/update-jur-dashboard.yml"
   schedule:
     # Flere backupforsøg, fordi GitHub kan forsinke eller droppe enkelte cron-kørsler.
@@ -78,10 +80,14 @@ jobs:
             echo "exit_code=1" >> "$GITHUB_OUTPUT"
           else
             set +e
-            python -m py_compile scripts/update_jur_dashboard.py scripts/run_jur_update.py > status/run.log 2>&1
+            python -m py_compile scripts/update_jur_dashboard.py scripts/run_jur_update.py scripts/update_dst_unemployment_percent.py scripts/refresh_dst_sources.py > status/run.log 2>&1
             code=$?
             if [ "$code" -eq 0 ]; then
               python scripts/run_jur_update.py >> status/run.log 2>&1
+              code=$?
+            fi
+            if [ "$code" -eq 0 ]; then
+              python scripts/refresh_dst_sources.py >> status/run.log 2>&1
               code=$?
             fi
             set -e
@@ -102,6 +108,7 @@ jobs:
           test -s data/dashboard-data.json
           grep -q "Nøgletal for a-kasserne" index.html
           grep -q "const DATA=" index.html
+          grep -q '"AUP03"' data/dashboard-data.json
 
       - name: Gem data og status
         if: steps.gate.outputs.should_run == 'true' && always()
