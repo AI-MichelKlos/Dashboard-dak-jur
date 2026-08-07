@@ -1,5 +1,3 @@
-status: fejl
-tid_utc: 2026-08-07T20:16:47Z
+status: ok
+tid_utc: 2026-08-07T20:18:46Z
 dato_dk: 2026-08-07
-trin: opdatering
-fejl: Starter: sanktioner Færdig: sanktioner Ingen nye Jobindsats-tal. Kørselsdatoen er opdateret: 7. august 2026. Traceback (most recent call last): File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/refresh_dst_sources.py", line 66, in <module> main() File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/refresh_dst_sources.py", line 24, in main latest = dst_percent.refresh(data, updater.kpi) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File "/home/runner/work/Dashboard-dak-jur/Dashboard-dak-jur/scripts/update_dst_unemployment_percent.py", line 115, in refresh raise RuntimeError( RuntimeError: AUP03 2026M06 mangler mapping for 3 a-kasser: CA A-kasse & Karriereudvikling, Lederne A-kasse, Lærernes a-kasse 
