@@ -1,6 +1,6 @@
 {
   "meta": {
-    "versionDate": "16. august 2026",
+    "versionDate": "17. august 2026",
     "sourceFile": "Officielle API-kilder med tidligere Excel-data som fallback",
     "updateStatus": {
       "state": "ok",
@@ -13,25 +13,34 @@
         "dimittendledighed",
         "opbrugt dagpengeret",
         "sanktioner",
-        "ledighed i pct. (DST AUP03)"
+        "ledighed i pct. (DST AUP03)",
+        "konkurser (DST KONK3)"
       ],
       "failed": [],
-      "checkedAt": "2026-08-16T09:50:06+02:00",
+      "checkedAt": "2026-08-17T09:29:15+02:00",
       "numbersChanged": false,
       "periodsFetchedPerRun": {
         "months": 24,
         "quarters": 12
       }
     },
-    "lastRunAt": "2026-08-16T09:50:06+02:00",
-    "lastRunDate": "16. august 2026",
+    "lastRunAt": "2026-08-17T09:29:15+02:00",
+    "lastRunDate": "17. august 2026",
     "sourceStatus": {
       "AUP03": {
         "state": "ok",
         "latestPeriod": "2026M06",
-        "checkedAt": "2026-08-16T09:50:06+02:00",
+        "checkedAt": "2026-08-17T09:29:15+02:00",
         "source": "Danmarks Statistik",
         "dataset": "AUP03"
+      },
+      "KONK3": {
+        "state": "ok",
+        "latestPeriod": "2026M07",
+        "sourceUpdated": "2026-08-06T06:00:00Z",
+        "checkedAt": "2026-08-17T09:29:15+02:00",
+        "source": "Danmarks Statistik",
+        "dataset": "KONK3"
       }
     }
   },
@@ -4764,7 +4773,8 @@
         "2026M03",
         "2026M04",
         "2026M05",
-        "2026M06"
+        "2026M06",
+        "2026M07"
       ],
       "total": [
         213,
@@ -4976,7 +4986,8 @@
         158,
         125,
         104,
-        122
+        122,
+        103
       ],
       "lostJobs": [
         1253,
@@ -5191,10 +5202,10 @@
         736
       ],
       "kpi": {
-        "period": "2026M06",
-        "value": 122,
-        "lastYearPeriod": "2025M06",
-        "lastYearValue": 132,
+        "period": "2026M07",
+        "value": 103,
+        "lastYearPeriod": "2025M07",
+        "lastYearValue": 165,
         "unit": "count"
       }
     },
