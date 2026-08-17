@@ -10,6 +10,7 @@ on:
       - "scripts/update_jur_dashboard.py"
       - "scripts/run_jur_update.py"
       - "scripts/update_dst_unemployment_percent.py"
+      - "scripts/update_dst_bankruptcies.py"
       - "scripts/refresh_dst_sources.py"
       - ".github/workflows/update-jur-dashboard.yml"
   schedule:
@@ -100,7 +101,7 @@ jobs:
             echo "exit_code=1" >> "$GITHUB_OUTPUT"
           else
             set +e
-            python -m py_compile scripts/update_jur_dashboard.py scripts/run_jur_update.py scripts/update_dst_unemployment_percent.py scripts/refresh_dst_sources.py > status/run.log 2>&1
+            python -m py_compile scripts/update_jur_dashboard.py scripts/run_jur_update.py scripts/update_dst_unemployment_percent.py scripts/update_dst_bankruptcies.py scripts/refresh_dst_sources.py > status/run.log 2>&1
             code=$?
             if [ "$code" -eq 0 ]; then
               python scripts/run_jur_update.py >> status/run.log 2>&1
@@ -129,14 +130,19 @@ jobs:
           grep -q "Nøgletal for a-kasserne" index.html
           grep -q "const DATA=" index.html
           grep -q '"AUP03"' data/dashboard-data.json
+          grep -q '"KONK3"' data/dashboard-data.json
           python - <<'PY'
           import json
           from pathlib import Path
           data = json.loads(Path('data/dashboard-data.json').read_text(encoding='utf-8'))
-          sec = data['sections']['unemploymentPercent']
-          assert sec['labels'][-1] == data['meta']['sourceStatus']['AUP03']['latestPeriod']
-          assert sec['total'][-1] is not None
-          assert all(values[-1] is not None for values in sec['byAkasse'].values())
+          pct = data['sections']['unemploymentPercent']
+          assert pct['labels'][-1] == data['meta']['sourceStatus']['AUP03']['latestPeriod']
+          assert pct['total'][-1] is not None
+          assert all(values[-1] is not None for values in pct['byAkasse'].values())
+          bankruptcies = data['sections']['bankruptcies']
+          assert bankruptcies['labels'][-1] == data['meta']['sourceStatus']['KONK3']['latestPeriod']
+          assert bankruptcies['total'][-1] is not None
+          assert bankruptcies['kpi']['period'] == data['meta']['sourceStatus']['KONK3']['latestPeriod']
           PY
 
       - name: Gem data og status
