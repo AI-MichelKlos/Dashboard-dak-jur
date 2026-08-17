@@ -6,19 +6,25 @@
 <title>Nøgletal for a-kasserne</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
-#dak-analyse-jur{--green:#6B9E78;--dark-green:#3d6b47;--ink:#0F2B36;--orange:#E07A40;--blue:#4A90C4;--purple:#9B59B6;--grid:#E8EBE8;--muted:#64737A;--paper:#fff;--soft:#F5F8F5;font-family:'Segoe UI',Arial,sans-serif;color:var(--ink);max-width:1280px;margin:0 auto;padding:20px 18px 50px;line-height:1.45}
+body{margin:0;background:#f5f7f5;font-family:'Segoe UI',Arial,sans-serif;color:#0F2B36}
+.dak-hero{background:linear-gradient(135deg,#0F2B36,#244d4b);color:#fff;padding:32px 20px}
+.dak-hero-inner{max-width:1280px;margin:0 auto}
+.dak-eyebrow{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#c9dfcf}
+.dak-hero h1{font-size:clamp(2.1rem,4vw,3.4rem);line-height:1.08;margin:5px 0 0;color:#fff;letter-spacing:-.025em}
+.dak-hero .dashboard-subtitle{margin:5px 0 0;color:#c9d8d5;font-size:.78rem;font-weight:600}
+#dak-analyse-jur{--green:#6B9E78;--dark-green:#3d6b47;--ink:#0F2B36;--orange:#E07A40;--blue:#4A90C4;--purple:#9B59B6;--grid:#E8EBE8;--muted:#64737A;--paper:#fff;--soft:#f5f7f5;font-family:'Segoe UI',Arial,sans-serif;color:var(--ink);max-width:1280px;margin:0 auto;padding:20px 18px 50px;line-height:1.45}
 #dak-analyse-jur *{box-sizing:border-box}
 #dak-analyse-jur .dashboard-header{padding:20px 0 12px;border-bottom:3px solid var(--green)}
 #dak-analyse-jur h1{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.12;margin:0;color:var(--ink);letter-spacing:-.025em}
 #dak-analyse-jur .dashboard-subtitle{margin:7px 0 0;color:var(--dark-green);font-size:1rem;font-weight:600}
-#dak-analyse-jur .date-box{display:inline-flex;margin:16px 0 10px;padding:8px 12px;background:var(--soft);border:1px solid #dce6dd;border-radius:8px;font-size:.9rem;font-weight:650;color:var(--dark-green)}
-#dak-analyse-jur .section-nav{position:sticky;top:0;z-index:9;display:flex;gap:8px;overflow-x:auto;padding:10px 0 12px;background:rgba(255,255,255,.96);border-bottom:1px solid var(--grid);scrollbar-width:thin}
-#dak-analyse-jur .section-nav a{flex:0 0 auto;text-decoration:none;color:var(--ink);font-size:.82rem;font-weight:650;padding:7px 10px;border:1px solid #dce6dd;border-radius:999px;background:#fff}
+#dak-analyse-jur .date-box{display:inline-flex;margin:16px 0 10px;padding:8px 12px;background:var(--soft);border:1px solid var(--grid);border-radius:8px;font-size:.9rem;font-weight:650;color:var(--dark-green)}
+#dak-analyse-jur .section-nav{position:sticky;top:0;z-index:9;display:flex;gap:8px;overflow-x:auto;padding:10px 0 12px;background:rgba(245,247,245,.96);border-bottom:1px solid var(--grid);scrollbar-width:thin}
+#dak-analyse-jur .section-nav a{flex:0 0 auto;text-decoration:none;color:var(--ink);font-size:.82rem;font-weight:650;padding:7px 10px;border:1px solid var(--grid);border-radius:999px;background:#fff}
 #dak-analyse-jur .section-nav a:hover,#dak-analyse-jur .section-nav a:focus{background:var(--soft);border-color:var(--green);outline:none}
 #dak-analyse-jur .section-heading{font-size:1.45rem;margin:30px 0 6px}
 #dak-analyse-jur .section-intro{margin:0 0 16px;color:var(--muted);max-width:80ch}
 #dak-analyse-jur .kpi-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-#dak-analyse-jur .kpi-card{background:var(--paper);border:1px solid #dce6dd;border-radius:12px;padding:16px;box-shadow:0 4px 16px rgba(15,43,54,.06);min-width:0}
+#dak-analyse-jur .kpi-card{background:var(--paper);border:1px solid var(--grid);border-radius:12px;padding:16px;box-shadow:0 4px 16px rgba(15,43,54,.06);min-width:0}
 #dak-analyse-jur .kpi-title{font-size:1rem;font-weight:750;line-height:1.25}
 #dak-analyse-jur .kpi-title-sub{margin-top:2px;font-size:.82rem;font-weight:500;color:#6B7280;line-height:1.25;min-height:1.05rem}
 #dak-analyse-jur .kpi-period{margin-top:12px;font-size:.76rem;text-transform:uppercase;letter-spacing:.035em;color:var(--muted);font-weight:650}
@@ -28,16 +34,16 @@
 #dak-analyse-jur .chart-section{margin-top:38px}
 #dak-analyse-jur .topic{scroll-margin-top:72px;margin-top:28px}
 #dak-analyse-jur .topic>h3{font-size:1.28rem;margin:0 0 12px;padding-bottom:7px;border-bottom:2px solid var(--green)}
-#dak-analyse-jur .chart-card{background:var(--paper);border:1px solid #dce6dd;border-radius:12px;padding:18px;margin-bottom:16px;box-shadow:0 4px 16px rgba(15,43,54,.06)}
+#dak-analyse-jur .chart-card{background:var(--paper);border:1px solid var(--grid);border-radius:12px;padding:18px;margin-bottom:16px;box-shadow:0 4px 16px rgba(15,43,54,.06)}
 #dak-analyse-jur .chart-title{font-size:1.08rem;font-weight:750;margin:0}
 #dak-analyse-jur .chart-desc{margin:4px 0 10px;color:var(--muted);font-size:.88rem}
 #dak-analyse-jur .chart-controls{display:flex;align-items:end;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:10px 0 12px}
 #dak-analyse-jur .range-controls{display:flex;gap:7px;flex-wrap:wrap}
 #dak-analyse-jur button,#dak-analyse-jur select{font:inherit}
-#dak-analyse-jur .range-controls button{border:1px solid #cfdacf;background:#fff;color:var(--ink);padding:7px 11px;border-radius:8px;cursor:pointer;font-size:.82rem;font-weight:650}
+#dak-analyse-jur .range-controls button{border:1px solid #d6dfd9;background:#fff;color:var(--ink);padding:7px 11px;border-radius:8px;cursor:pointer;font-size:.82rem;font-weight:650}
 #dak-analyse-jur .range-controls button.active{background:var(--dark-green);border-color:var(--dark-green);color:#fff}
 #dak-analyse-jur .select-control{display:grid;gap:4px;font-size:.78rem;color:var(--muted);font-weight:650;min-width:min(100%,320px)}
-#dak-analyse-jur select{width:100%;border:1px solid #cfdacf;border-radius:8px;background:#fff;color:var(--ink);padding:8px 10px}
+#dak-analyse-jur select{width:100%;border:1px solid #d6dfd9;border-radius:8px;background:#fff;color:var(--ink);padding:8px 10px}
 #dak-analyse-jur .chart-canvas-wrap{position:relative;height:420px;margin-top:8px;padding:8px 8px 0 2px}
 #dak-analyse-jur .chart-canvas-wrap.tall{height:560px}
 #dak-analyse-jur .chart-note,#dak-analyse-jur .chart-source{font-size:.8rem;color:var(--muted);margin:9px 0 0}
@@ -49,11 +55,8 @@
 </style>
 </head>
 <body>
+<header class="dak-hero"><div class="dak-hero-inner"><div class="dak-eyebrow">Danske A-kasser</div><h1>Nøgletal for a-kasserne</h1><p class="dashboard-subtitle">Udarbejdet af Michel Klos@GitHub</p></div></header>
 <div id="dak-analyse-jur">
-  <header class="dashboard-header">
-    <h1>Nøgletal for a-kasserne</h1>
-    <p class="dashboard-subtitle">Udarbejdet af Danske A-kasser</p>
-  </header>
   <section class="date-box" aria-label="Dato for versionen">Senest kørt 17. august 2026</section>
   <nav class="section-nav" aria-label="Dashboardets emner">
     <a href="#ledighed">Ledighed</a><a href="#langtidsledighed">Langtidsledighed</a>
