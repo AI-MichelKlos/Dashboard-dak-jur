@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JUR – Arbejdsmarkedsoverblik</title>
+<title>JUR - Arbejdsmarkedsoverblik</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
 body{margin:0;background:#f5f7f5;font-family:'Segoe UI',Arial,sans-serif;color:#0F2B36}
@@ -24,17 +24,17 @@ body{margin:0;background:#f5f7f5;font-family:'Segoe UI',Arial,sans-serif;color:#
 #dak-analyse-jur .section-heading{font-size:1.45rem;margin:30px 0 6px}
 #dak-analyse-jur .section-intro{margin:0 0 16px;color:var(--muted);max-width:80ch}
 #dak-analyse-jur .kpi-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-#dak-analyse-jur .kpi-card{background:var(--paper);border:1px solid var(--grid);border-radius:12px;padding:16px;box-shadow:0 4px 16px rgba(15,43,54,.06);min-width:0}
+#dak-analyse-jur .kpi-card{background:var(--paper);border:1px solid var(--grid);border-top:4px solid var(--green);border-radius:12px;padding:16px;box-shadow:0 6px 20px rgba(15,43,54,.07);min-width:0}
 #dak-analyse-jur .kpi-title{font-size:1rem;font-weight:750;line-height:1.25}
 #dak-analyse-jur .kpi-title-sub{margin-top:2px;font-size:.82rem;font-weight:500;color:#6B7280;line-height:1.25;min-height:1.05rem}
-#dak-analyse-jur .kpi-period{margin-top:12px;font-size:.76rem;text-transform:uppercase;letter-spacing:.035em;color:var(--muted);font-weight:650}
-#dak-analyse-jur .kpi-value{font-size:clamp(1.8rem,3vw,2.35rem);font-weight:780;color:var(--dark-green);line-height:1.08;margin:4px 0 12px}
+#dak-analyse-jur .kpi-period{margin-top:12px;font-size:.78rem;color:var(--muted);font-weight:650}
+#dak-analyse-jur .kpi-value{font-size:clamp(1.8rem,3vw,2.35rem);font-weight:780;color:var(--ink);line-height:1.08;margin:4px 0 12px}
 #dak-analyse-jur .kpi-compare{padding-top:10px;border-top:1px solid var(--grid);font-size:.8rem;color:var(--muted);display:grid;gap:4px}
 #dak-analyse-jur .kpi-compare strong{color:var(--ink);font-weight:700}
 #dak-analyse-jur .chart-section{margin-top:38px}
 #dak-analyse-jur .topic{scroll-margin-top:72px;margin-top:28px}
 #dak-analyse-jur .topic>h3{font-size:1.28rem;margin:0 0 12px;padding-bottom:7px;border-bottom:2px solid var(--green)}
-#dak-analyse-jur .chart-card{background:var(--paper);border:1px solid var(--grid);border-radius:12px;padding:18px;margin-bottom:16px;box-shadow:0 4px 16px rgba(15,43,54,.06)}
+#dak-analyse-jur .chart-card{background:var(--paper);border:1px solid var(--grid);border-radius:12px;padding:20px;margin-bottom:16px;box-shadow:0 6px 20px rgba(15,43,54,.07)}
 #dak-analyse-jur .chart-title{font-size:1.08rem;font-weight:750;margin:0}
 #dak-analyse-jur .chart-desc{margin:4px 0 10px;color:var(--muted);font-size:.88rem}
 #dak-analyse-jur .chart-controls{display:flex;align-items:end;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:10px 0 12px}
@@ -47,7 +47,7 @@ body{margin:0;background:#f5f7f5;font-family:'Segoe UI',Arial,sans-serif;color:#
 #dak-analyse-jur .chart-canvas-wrap{position:relative;height:420px;margin-top:8px;padding:8px 8px 0 2px}
 #dak-analyse-jur .chart-canvas-wrap.tall{height:560px}
 #dak-analyse-jur .chart-note,#dak-analyse-jur .chart-source{font-size:.8rem;color:var(--muted);margin:9px 0 0}
-#dak-analyse-jur .chart-source{font-weight:600}
+#dak-analyse-jur .chart-source{font-weight:600;padding-top:10px;border-top:1px solid var(--grid)}
 #dak-analyse-jur .empty-state{display:none;align-items:center;justify-content:center;text-align:center;min-height:220px;color:var(--muted);background:var(--soft);border-radius:8px;padding:20px}
 #dak-analyse-jur .method-note{margin-top:30px;padding:15px 17px;background:var(--soft);border-left:4px solid var(--green);border-radius:8px;color:var(--muted);font-size:.86rem}
 @media(max-width:900px){#dak-analyse-jur .kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#dak-analyse-jur .chart-canvas-wrap{height:360px}}
@@ -55,9 +55,9 @@ body{margin:0;background:#f5f7f5;font-family:'Segoe UI',Arial,sans-serif;color:#
 </style>
 </head>
 <body>
-<header class="dak-hero"><div class="dak-hero-inner"><h1>JUR – Arbejdsmarkedsoverblik</h1><p class="dashboard-subtitle">Udarbejdet af Michel Klos</p></div></header>
+<header class="dak-hero"><div class="dak-hero-inner"><h1>JUR - Arbejdsmarkedsoverblik</h1><p class="dashboard-subtitle">Udarbejdet af Michel Klos</p></div></header>
 <div id="dak-analyse-jur">
-  <section class="date-box" aria-label="Dato for versionen">Senest kørt 19. august 2026</section>
+  <section class="date-box" aria-label="Dato for versionen">Opdateret 19. august 2026</section>
   <nav class="section-nav" aria-label="Dashboardets emner">
     <a href="#ledighed">Ledighed</a><a href="#langtidsledighed">Langtidsledighed</a>
     <a href="#aktivering">Aktivering</a><a href="#varslinger-konkurser">Varslinger og konkurser</a>
@@ -200,7 +200,7 @@ body{margin:0;background:#f5f7f5;font-family:'Segoe UI',Arial,sans-serif;color:#
     <section class="method-note" aria-label="Datanote">
       Perioder og sammenligninger følger den seneste gyldige observation i hver dataserie. KPI-kortene sammenligner med samme periode året før, når denne observation findes.
     </section>
-  <div style="margin-top:24px;color:var(--muted);font-size:.8rem;text-align:center">Grafik og databehandling: Michel Klos · Kontakt: <a href="mailto:mk@danskeakasser.dk" style="color:var(--dark-green)">mk@danskeakasser.dk</a></div>
+  <div style="margin-top:24px;color:var(--muted);font-size:.8rem;text-align:center">Grafik og databehandling: Michel Klos. Kontakt: <a href="mailto:mk@danskeakasser.dk" style="color:var(--dark-green)">mk@danskeakasser.dk</a></div>
   </main>
 </div>
 
@@ -277,7 +277,7 @@ function sliceData(labels,arrays,id){
   return {labels:labels.slice(start),arrays:arrays.map(a=>a.slice(start))};
 }
 function xAxis(){
-  return {type:'category',ticks:{font:{size:11},padding:8,maxRotation:45,autoSkip:true,maxTicksLimit:12,callback:function(v){return fmtPeriod(this.getLabelForValue(v));}},grid:{color:'#E8EBE8'}};
+  return {type:'category',ticks:{font:{size:11},padding:8,maxRotation:45,autoSkip:true,maxTicksLimit:12,callback:function(v){return fmtPeriod(this.getLabelForValue(v));}},grid:{display:false}};
 }
 function chartOptions({percent=false,legend=true,stacked=false,horizontal=false}={}){
   const valueTick=v=>percent?`${fmtOne.format(v)}%`:fmtInt.format(v);
@@ -296,14 +296,14 @@ function drawFundLine(id,section,selectId,{percent=false,label='Antal'}={}){
   const sliced=sliceData(section.labels,[selected.values],id);
   if(!validSeries(sliced.labels,sliced.arrays))return showEmpty(id);
   showCanvas(id);destroy(id);
-  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:[{label:selected.name,data:sliced.arrays[0],borderColor:C.green,backgroundColor:'rgba(107,158,120,.12)',borderWidth:2.5,pointRadius:1.5,tension:.18,fill:true}]},options:chartOptions({percent,legend:false})});
+  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:[{label:selected.name,data:sliced.arrays[0],borderColor:C.green,backgroundColor:C.green,borderWidth:2.5,pointRadius:0,pointHoverRadius:4,tension:.18,fill:false}]},options:chartOptions({percent,legend:false})});
 }
 function drawActivation(){
   const id='activationChart',s=DATA.sections.activationOffers;
   const entries=Object.entries(s.series),sliced=sliceData(s.labels,entries.map(x=>x[1]),id);
   if(!validSeries(sliced.labels,sliced.arrays))return showEmpty(id);
   showCanvas(id);destroy(id);
-  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:entries.map(([name],i)=>({label:name,data:sliced.arrays[i],borderColor:PALETTE[i%PALETTE.length],backgroundColor:PALETTE[i%PALETTE.length],borderWidth:name==='Tilbud i alt'?3:2,pointRadius:1.5,tension:.18,fill:false}))},options:chartOptions({legend:true})});
+  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:entries.map(([name],i)=>({label:name,data:sliced.arrays[i],borderColor:PALETTE[i%PALETTE.length],backgroundColor:PALETTE[i%PALETTE.length],borderWidth:name==='Tilbud i alt'?3:2,pointRadius:0,pointHoverRadius:4,tension:.18,fill:false}))},options:chartOptions({legend:true})});
 }
 function drawBar(id,section,label,color){
   const sliced=sliceData(section.labels,[section.total],id);
@@ -326,7 +326,7 @@ function drawRecruitment(){
   const options=chartOptions({legend:true});
   options.scales.y1={type:'linear',position:'right',beginAtZero:true,title:{display:true,text:'FRR i pct.'},ticks:{callback:v=>`${fmtOne.format(v)}%`},grid:{drawOnChartArea:false}};
   options.plugins.tooltip.callbacks.label=item=>item.dataset.yAxisID==='y1'?`${item.dataset.label}: ${fmtOne.format(item.parsed.y)}%`:`${item.dataset.label}: ${fmtInt.format(item.parsed.y)}`;
-  charts[id]=new Chart(document.getElementById(id),{type:'bar',data:{labels:sliced.labels,datasets:[{label:'Ikke besatte rekrutteringer',data:sliced.arrays[0],backgroundColor:'rgba(107,158,120,.75)',borderColor:C.dark,borderWidth:1,yAxisID:'y'},{type:'line',label:'FRR, højre akse',data:sliced.arrays[1],borderColor:C.orange,backgroundColor:C.orange,borderWidth:2.5,pointRadius:3,tension:.15,yAxisID:'y1'}]},options});
+  charts[id]=new Chart(document.getElementById(id),{type:'bar',data:{labels:sliced.labels,datasets:[{label:'Ikke besatte rekrutteringer',data:sliced.arrays[0],backgroundColor:'rgba(107,158,120,.75)',borderColor:C.dark,borderWidth:1,yAxisID:'y'},{type:'line',label:'FRR, højre akse',data:sliced.arrays[1],borderColor:C.orange,backgroundColor:C.orange,borderWidth:2.5,pointRadius:0,pointHoverRadius:4,tension:.15,yAxisID:'y1'}]},options});
 }
 function drawTopOccupations(){
   const id='topOccupationsChart',s=DATA.sections.failedRecruitment;
@@ -343,7 +343,7 @@ function drawGraduateExpired(){
   const sliced=sliceData(s.labels,entries.map(x=>x[1]),id);
   if(!validSeries(sliced.labels,sliced.arrays))return showEmpty(id);
   showCanvas(id);destroy(id);
-  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:entries.map(([name],i)=>({label:name,data:sliced.arrays[i],borderColor:PALETTE[i],backgroundColor:PALETTE[i],borderWidth:name==='Ledige i alt'?3:2,pointRadius:1.5,tension:.18}))},options:chartOptions({legend:true})});
+  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:entries.map(([name],i)=>({label:name,data:sliced.arrays[i],borderColor:PALETTE[i],backgroundColor:PALETTE[i],borderWidth:name==='Ledige i alt'?3:2,pointRadius:0,pointHoverRadius:4,tension:.18}))},options:chartOptions({legend:true})});
 }
 function sanctionSelected(selectId){
   const s=DATA.sections.sanctions,selected=document.getElementById(selectId).value;
@@ -355,14 +355,14 @@ function drawSanctions(){
   const sliced=sliceData(s.labels,defs.map(x=>selected.data[x[1]]),id);
   if(!validSeries(sliced.labels,sliced.arrays))return showEmpty(id);
   showCanvas(id);destroy(id);
-  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:defs.map(([name],i)=>({label:name,data:sliced.arrays[i],borderColor:PALETTE[i],backgroundColor:PALETTE[i],borderWidth:i===0?3:2,pointRadius:2,tension:.16}))},options:chartOptions({legend:true})});
+  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:defs.map(([name],i)=>({label:name,data:sliced.arrays[i],borderColor:PALETTE[i],backgroundColor:PALETTE[i],borderWidth:i===0?3:2,pointRadius:0,pointHoverRadius:4,tension:.16}))},options:chartOptions({legend:true})});
 }
 function drawSanctionsShare(){
   const id='sanctionsShareChart',s=DATA.sections.sanctions,selected=sanctionSelected('sanctionsShareSelect');
   const sliced=sliceData(s.labels,[selected.data.share],id);
   if(!validSeries(sliced.labels,sliced.arrays))return showEmpty(id);
   showCanvas(id);destroy(id);
-  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:[{label:selected.name,data:sliced.arrays[0],borderColor:C.purple,backgroundColor:'rgba(155,89,182,.12)',fill:true,borderWidth:2.5,pointRadius:2,tension:.16}]},options:chartOptions({percent:true,legend:false})});
+  charts[id]=new Chart(document.getElementById(id),{type:'line',data:{labels:sliced.labels,datasets:[{label:selected.name,data:sliced.arrays[0],borderColor:C.purple,backgroundColor:C.purple,fill:false,borderWidth:2.5,pointRadius:0,pointHoverRadius:4,tension:.16}]},options:chartOptions({percent:true,legend:false})});
 }
 function draw(id){
   const s=DATA.sections;
