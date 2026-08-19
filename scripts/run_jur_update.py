@@ -132,7 +132,7 @@ def sync_visible_date(data):
 
     status = meta.get("updateStatus", {})
     state = status.get("state", "ok")
-    visible = f"Senest kørt {html_escape(run_date)}"
+    visible = f"Opdateret {html_escape(run_date)}"
     if state == "partial":
         failed = ", ".join(html_escape(str(item)) for item in status.get("failed", []))
         visible += (
