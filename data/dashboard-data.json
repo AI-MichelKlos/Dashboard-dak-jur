@@ -1,6 +1,6 @@
 {
   "meta": {
-    "versionDate": "30. august 2026",
+    "versionDate": "31. august 2026",
     "sourceFile": "Officielle API-kilder med tidligere Excel-data som fallback",
     "updateStatus": {
       "state": "ok",
@@ -17,20 +17,20 @@
         "konkurser (DST KONK3)"
       ],
       "failed": [],
-      "checkedAt": "2026-08-30T15:00:18+02:00",
+      "checkedAt": "2026-08-31T17:12:02+02:00",
       "numbersChanged": false,
       "periodsFetchedPerRun": {
         "months": 24,
         "quarters": 12
       }
     },
-    "lastRunAt": "2026-08-30T15:00:18+02:00",
-    "lastRunDate": "30. august 2026",
+    "lastRunAt": "2026-08-31T17:12:02+02:00",
+    "lastRunDate": "31. august 2026",
     "sourceStatus": {
       "AUP03": {
         "state": "ok",
-        "latestPeriod": "2026M06",
-        "checkedAt": "2026-08-30T15:00:18+02:00",
+        "latestPeriod": "2026M07",
+        "checkedAt": "2026-08-31T17:12:02+02:00",
         "source": "Danmarks Statistik",
         "dataset": "AUP03"
       },
@@ -38,7 +38,7 @@
         "state": "ok",
         "latestPeriod": "2026M07",
         "sourceUpdated": "2026-08-06T06:00:00Z",
-        "checkedAt": "2026-08-30T15:00:18+02:00",
+        "checkedAt": "2026-08-31T17:12:02+02:00",
         "source": "Danmarks Statistik",
         "dataset": "KONK3"
       }
@@ -1422,7 +1422,8 @@
         "2026M03",
         "2026M04",
         "2026M05",
-        "2026M06"
+        "2026M06",
+        "2026M07"
       ],
       "total": [
         3.2,
@@ -1478,7 +1479,8 @@
         3.6,
         3.4,
         3.2,
-        3.3
+        3.3,
+        3.5
       ],
       "byAkasse": {
         "A-kassen A&Til": [
@@ -1535,7 +1537,8 @@
           3.7,
           3.6,
           3.4,
-          3.6
+          3.6,
+          4.0
         ],
         "A-kassen Frie": [
           2.7,
@@ -1591,7 +1594,8 @@
           3.6,
           3.5,
           3.4,
-          3.3
+          3.3,
+          3.2
         ],
         "A-kassen for Journalistik, Kommunikation & Sprog": [
           6.2,
@@ -1647,7 +1651,8 @@
           6.5,
           6.3,
           6,
-          6.3
+          6.3,
+          6.8
         ],
         "ASE": [
           2.5,
@@ -1703,7 +1708,8 @@
           3.9,
           3.6,
           3.4,
-          3.4
+          3.4,
+          3.2
         ],
         "Akademikernes A-kasse": [
           2.8,
@@ -1759,7 +1765,8 @@
           3.5,
           3.5,
           3.3,
-          3.6
+          3.6,
+          4.4
         ],
         "Børne- og Ungdomspædagogernes Landsdækkende A-kasse": [
           2,
@@ -1815,7 +1822,8 @@
           1.6,
           1.4,
           1.3,
-          1.6
+          1.6,
+          2.1
         ],
         "CA A-kasse & Karriereudvikling": [
           3.1,
@@ -1871,7 +1879,8 @@
           3.8,
           3.8,
           3.6,
-          4.0
+          4.0,
+          4.6
         ],
         "Det Faglige Hus - A-kasse": [
           3.6,
@@ -1927,7 +1936,8 @@
           4,
           3.7,
           3.6,
-          3.4
+          3.4,
+          3.3
         ],
         "Din Faglige A-kasse": [
           2.5,
@@ -1983,7 +1993,8 @@
           2.9,
           2.7,
           2.6,
-          2.4
+          2.4,
+          2.1
         ],
         "Din Sundhedsfaglige A-kasse": [
           1.1,
@@ -2039,7 +2050,8 @@
           1.6,
           1.4,
           1.2,
-          1.6
+          1.6,
+          2.0
         ],
         "FOAs A-kasse": [
           1.7,
@@ -2095,7 +2107,8 @@
           1.9,
           1.9,
           1.8,
-          1.7
+          1.7,
+          1.6
         ],
         "Faglig Fælles A-kasse": [
           5.3,
@@ -2151,7 +2164,8 @@
           5.3,
           4.5,
           4.1,
-          3.7
+          3.7,
+          3.4
         ],
         "HK A-kasse": [
           3.4,
@@ -2206,6 +2220,7 @@
           3.7,
           3.7,
           3.7,
+          3.6,
           3.6,
           3.6
         ],
@@ -2263,7 +2278,8 @@
           5.1,
           4.8,
           4.5,
-          4.4
+          4.4,
+          4.2
         ],
         "Lederne A-kasse": [
           2,
@@ -2319,7 +2335,8 @@
           2.9,
           3,
           2.9,
-          2.9
+          2.9,
+          2.8
         ],
         "Lærernes a-kasse": [
           1.7,
@@ -2375,7 +2392,8 @@
           1.8,
           1.8,
           1.8,
-          2.2
+          2.2,
+          3.5
         ],
         "Magistrenes A-kasse": [
           4.9,
@@ -2431,7 +2449,8 @@
           4.6,
           4.6,
           4.4,
-          4.6
+          4.6,
+          5.6
         ],
         "Metal A-kasse": [
           2.1,
@@ -2487,6 +2506,7 @@
           2.4,
           2.3,
           2.1,
+          2.0,
           2.0
         ],
         "Min A-kasse": [
@@ -2543,7 +2563,8 @@
           3.8,
           3.7,
           3.5,
-          3.5
+          3.5,
+          3.6
         ],
         "Socialpædagogernes A-kasse": [
           2.1,
@@ -2599,7 +2620,8 @@
           2.2,
           2.1,
           1.8,
-          1.9
+          1.9,
+          2.2
         ],
         "Teknikernes A-kasse": [
           4.5,
@@ -2655,14 +2677,15 @@
           4.5,
           4.5,
           4.6,
-          4.5
+          4.5,
+          4.9
         ]
       },
       "kpi": {
-        "period": "2026M06",
-        "value": 3.3,
-        "lastYearPeriod": "2025M06",
-        "lastYearValue": 3.2,
+        "period": "2026M07",
+        "value": 3.5,
+        "lastYearPeriod": "2025M07",
+        "lastYearValue": 3.4,
         "unit": "percent"
       }
     },
