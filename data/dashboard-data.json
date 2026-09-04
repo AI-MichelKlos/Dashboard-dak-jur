@@ -1,6 +1,6 @@
 {
   "meta": {
-    "versionDate": "3. september 2026",
+    "versionDate": "4. september 2026",
     "sourceFile": "Officielle API-kilder med tidligere Excel-data som fallback",
     "updateStatus": {
       "state": "ok",
@@ -17,28 +17,28 @@
         "konkurser (DST KONK3)"
       ],
       "failed": [],
-      "checkedAt": "2026-09-03T14:09:32+02:00",
+      "checkedAt": "2026-09-04T14:10:43+02:00",
       "numbersChanged": false,
       "periodsFetchedPerRun": {
         "months": 24,
         "quarters": 12
       }
     },
-    "lastRunAt": "2026-09-03T14:09:31+02:00",
-    "lastRunDate": "3. september 2026",
+    "lastRunAt": "2026-09-04T14:10:43+02:00",
+    "lastRunDate": "4. september 2026",
     "sourceStatus": {
       "AUP03": {
         "state": "ok",
         "latestPeriod": "2026M07",
-        "checkedAt": "2026-09-03T14:09:32+02:00",
+        "checkedAt": "2026-09-04T14:10:43+02:00",
         "source": "Danmarks Statistik",
         "dataset": "AUP03"
       },
       "KONK3": {
         "state": "ok",
-        "latestPeriod": "2026M07",
-        "sourceUpdated": "2026-08-06T06:00:00Z",
-        "checkedAt": "2026-09-03T14:09:32+02:00",
+        "latestPeriod": "2026M08",
+        "sourceUpdated": "2026-09-04T06:00:00Z",
+        "checkedAt": "2026-09-04T14:10:43+02:00",
         "source": "Danmarks Statistik",
         "dataset": "KONK3"
       }
@@ -4852,7 +4852,8 @@
         "2026M04",
         "2026M05",
         "2026M06",
-        "2026M07"
+        "2026M07",
+        "2026M08"
       ],
       "total": [
         213,
@@ -5065,7 +5066,8 @@
         125,
         104,
         122,
-        103
+        103,
+        80
       ],
       "lostJobs": [
         1253,
@@ -5280,10 +5282,10 @@
         736
       ],
       "kpi": {
-        "period": "2026M07",
-        "value": 103,
-        "lastYearPeriod": "2025M07",
-        "lastYearValue": 165,
+        "period": "2026M08",
+        "value": 80,
+        "lastYearPeriod": "2025M08",
+        "lastYearValue": 135,
         "unit": "count"
       }
     },
