@@ -12,6 +12,8 @@ on:
       - "scripts/update_dst_unemployment_percent.py"
       - "scripts/update_dst_bankruptcies.py"
       - "scripts/refresh_dst_sources.py"
+      - "scripts/validate_jur_dashboard.py"
+      - "tests/test_validate_jur_dashboard.py"
       - ".github/workflows/update-jur-dashboard.yml"
   schedule:
     # Flere backupforsøg, fordi GitHub kan forsinke eller droppe enkelte cron-kørsler.
@@ -82,7 +84,7 @@ jobs:
           PY
           then
             echo "Genopretter seneste kendte korrekte historik før AUP03-opdatering."
-            git checkout e6df04fc4683ce5154c0fd032b22306435ed33ec -- data/dashboard-data.json index.html
+            git restore --source=e6df04fc4683ce5154c0fd032b22306435ed33ec --worktree -- data/dashboard-data.json index.html
           else
             echo "Ingen historikreparation nødvendig."
           fi
@@ -114,7 +116,7 @@ jobs:
             set -e
             cat status/run.log || true
             if [ "$code" -eq 0 ]; then
-              printf 'status: ok\ntid_utc: %s\ndato_dk: %s\n' "$started" "$today" > status/last-run.txt
+              printf 'status: afventer_validering\ntid_utc: %s\ndato_dk: %s\n' "$started" "$today" > status/last-run.txt
             else
               message="$(tail -n 12 status/run.log | tr '\n' ' ' | sed 's/[[:space:]]\+/ /g')"
               printf 'status: fejl\ntid_utc: %s\ndato_dk: %s\ntrin: opdatering\nfejl: %s\n' "$started" "$today" "$message" > status/last-run.txt
@@ -124,31 +126,39 @@ jobs:
 
       - name: Kontroller dashboardfilen
         if: steps.gate.outputs.should_run == 'true' && steps.update.outputs.exit_code == '0'
+        id: validation
+        shell: bash
         run: |
-          test -s index.html
-          test -s data/dashboard-data.json
-          grep -q "Nøgletal for a-kasserne" index.html
-          grep -q "const DATA=" index.html
-          grep -q '"AUP03"' data/dashboard-data.json
-          grep -q '"KONK3"' data/dashboard-data.json
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          data = json.loads(Path('data/dashboard-data.json').read_text(encoding='utf-8'))
-          pct = data['sections']['unemploymentPercent']
-          assert pct['labels'][-1] == data['meta']['sourceStatus']['AUP03']['latestPeriod']
-          assert pct['total'][-1] is not None
-          assert all(values[-1] is not None for values in pct['byAkasse'].values())
-          bankruptcies = data['sections']['bankruptcies']
-          assert bankruptcies['labels'][-1] == data['meta']['sourceStatus']['KONK3']['latestPeriod']
-          assert bankruptcies['total'][-1] is not None
-          assert bankruptcies['kpi']['period'] == data['meta']['sourceStatus']['KONK3']['latestPeriod']
-          PY
+          python scripts/validate_jur_dashboard.py 2>&1 | tee status/validation.log
+          python -m unittest discover -s tests -p 'test_validate_jur_dashboard.py' -v 2>&1 | tee -a status/validation.log
+
+      - name: Afslut kørselsstatus efter validering
+        if: always() && steps.gate.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          mkdir -p status
+          finished="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          today="$(TZ=Europe/Copenhagen date +'%F')"
+          if [ "${{ steps.update.outputs.exit_code }}" = "0" ]; then
+            if [ "${{ steps.validation.outcome }}" = "success" ]; then
+              printf 'status: ok\ntid_utc: %s\ndato_dk: %s\n' "$finished" "$today" > status/last-run.txt
+            else
+              message="$(tail -n 12 status/validation.log 2>/dev/null | tr '\n' ' ' || true)"
+              printf 'status: fejl\ntid_utc: %s\ndato_dk: %s\ntrin: validering\nfejl: %s\n' "$finished" "$today" "${message:-Dashboardvalideringen blev ikke gennemført}" > status/last-run.txt
+            fi
+          elif [ -z "${{ steps.update.outputs.exit_code }}" ]; then
+            printf 'status: fejl\ntid_utc: %s\ndato_dk: %s\ntrin: opdatering\nfejl: Opdateringstrinnet blev ikke gennemført\n' "$finished" "$today" > status/last-run.txt
+          fi
+          cat status/last-run.txt
 
       - name: Gem data og status
         if: steps.gate.outputs.should_run == 'true' && always()
         run: |
-          git add index.html data/dashboard-data.json status/last-run.txt
+          if [ "${{ steps.update.outputs.exit_code }}" = "0" ] && \
+             [ "${{ steps.validation.outcome }}" = "success" ]; then
+            git add index.html data/dashboard-data.json
+          fi
+          git add status/last-run.txt
           if git diff --cached --quiet; then
             echo "Ingen ændringer at gemme."
           else
@@ -159,5 +169,5 @@ jobs:
           fi
 
       - name: Markér mislykket kørsel
-        if: steps.gate.outputs.should_run == 'true' && steps.update.outputs.exit_code != '0'
+        if: always() && steps.gate.outputs.should_run == 'true' && (steps.update.outputs.exit_code != '0' || steps.validation.outcome != 'success')
         run: exit 1
