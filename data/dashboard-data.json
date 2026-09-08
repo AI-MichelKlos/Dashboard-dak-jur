@@ -17,20 +17,20 @@
         "konkurser (DST KONK3)"
       ],
       "failed": [],
-      "checkedAt": "2026-09-08T14:11:56+02:00",
-      "numbersChanged": false,
+      "checkedAt": "2026-09-08T21:34:23+02:00",
+      "numbersChanged": true,
       "periodsFetchedPerRun": {
         "months": 24,
         "quarters": 12
       }
     },
-    "lastRunAt": "2026-09-08T14:11:56+02:00",
+    "lastRunAt": "2026-09-08T21:34:23+02:00",
     "lastRunDate": "8. september 2026",
     "sourceStatus": {
       "AUP03": {
         "state": "ok",
         "latestPeriod": "2026M07",
-        "checkedAt": "2026-09-08T14:11:56+02:00",
+        "checkedAt": "2026-09-08T21:34:23+02:00",
         "source": "Danmarks Statistik",
         "dataset": "AUP03"
       },
@@ -38,7 +38,7 @@
         "state": "ok",
         "latestPeriod": "2026M08",
         "sourceUpdated": "2026-09-04T06:00:00Z",
-        "checkedAt": "2026-09-08T14:11:56+02:00",
+        "checkedAt": "2026-09-08T21:34:23+02:00",
         "source": "Danmarks Statistik",
         "dataset": "KONK3"
       }
@@ -4525,7 +4525,8 @@
         "2026M04",
         "2026M05",
         "2026M06",
-        "2026M07"
+        "2026M07",
+        "2026M08"
       ],
       "total": [
         1491,
@@ -4624,19 +4625,20 @@
         1256,
         1068,
         969,
-        1247,
+        1207,
         676,
         1904,
-        421,
+        406,
         995,
-        334,
-        null
+        309,
+        null,
+        1662
       ],
       "kpi": {
-        "period": "2026M06",
-        "value": 334,
-        "lastYearPeriod": "2025M06",
-        "lastYearValue": 434,
+        "period": "2026M08",
+        "value": 1662,
+        "lastYearPeriod": "2025M08",
+        "lastYearValue": 648,
         "unit": "count"
       }
     },
@@ -5513,7 +5515,8 @@
         "2026M04",
         "2026M05",
         "2026M06",
-        "2026M07"
+        "2026M07",
+        "2026M08"
       ],
       "under13Weeks": [
         460,
@@ -5738,7 +5741,8 @@
         330,
         133,
         189,
-        123
+        123,
+        113
       ],
       "over13Weeks": [
         48,
@@ -5963,6 +5967,7 @@
         80,
         28,
         25,
+        8,
         8
       ],
       "total": [
@@ -6188,13 +6193,14 @@
         410,
         161,
         214,
-        131
+        131,
+        121
       ],
       "kpi": {
-        "period": "2026M07",
-        "value": 131,
-        "lastYearPeriod": "2025M07",
-        "lastYearValue": 119,
+        "period": "2026M08",
+        "value": 121,
+        "lastYearPeriod": "2025M08",
+        "lastYearValue": 264,
         "unit": "count"
       }
     },
