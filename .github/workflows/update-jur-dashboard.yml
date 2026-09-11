@@ -37,6 +37,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # Genkørsler skal bygge på de seneste data, ikke den oprindelige kørsels commit.
+          ref: main
 
       - name: Afgør om opdateringen skal gennemføres
         id: gate
