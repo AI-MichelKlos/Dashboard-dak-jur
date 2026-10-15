@@ -1,6 +1,6 @@
 {
   "meta": {
-    "versionDate": "14. oktober 2026",
+    "versionDate": "15. oktober 2026",
     "sourceFile": "Officielle API-kilder med tidligere Excel-data som fallback",
     "updateStatus": {
       "state": "ok",
@@ -17,20 +17,20 @@
         "konkurser (DST KONK3)"
       ],
       "failed": [],
-      "checkedAt": "2026-10-14T14:56:19+02:00",
+      "checkedAt": "2026-10-15T14:43:05+02:00",
       "numbersChanged": false,
       "periodsFetchedPerRun": {
         "months": 24,
         "quarters": 12
       }
     },
-    "lastRunAt": "2026-10-14T14:56:19+02:00",
-    "lastRunDate": "14. oktober 2026",
+    "lastRunAt": "2026-10-15T14:43:05+02:00",
+    "lastRunDate": "15. oktober 2026",
     "sourceStatus": {
       "AUP03": {
         "state": "ok",
         "latestPeriod": "2026M08",
-        "checkedAt": "2026-10-14T14:56:19+02:00",
+        "checkedAt": "2026-10-15T14:43:05+02:00",
         "source": "Danmarks Statistik",
         "dataset": "AUP03"
       },
@@ -38,7 +38,7 @@
         "state": "ok",
         "latestPeriod": "2026M09",
         "sourceUpdated": "2026-10-06T06:00:00Z",
-        "checkedAt": "2026-10-14T14:56:19+02:00",
+        "checkedAt": "2026-10-15T14:43:05+02:00",
         "source": "Danmarks Statistik",
         "dataset": "KONK3"
       }
